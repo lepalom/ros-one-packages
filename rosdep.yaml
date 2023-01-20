@@ -9,7 +9,7 @@ libtool:
     - libtool-bin
 libogre-dev:
   debian:
-    - libogre-1.12-dev
+    - libogre-1.9-dev
 python3-catkin-pkg-modules:
   debian:
     - python3-catkin-pkg
