@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 14 May 2020 00:00:00 -0000
+Source: ros-smach-ros
+Binary: ros-smach-ros
+Architecture: amd64
+Version: 2.5.0-4-gec80004-2023.01.20.16.28
+Distribution: bookworm
+Urgency: high
+Maintainer: Isaac I. Y. Saito <gm130s@gmail.com>
+Changed-By: Isaac I. Y. Saito <gm130s@gmail.com>
+Description:
+ ros-smach-ros - The smach_ros package contains extensions for the SMACH library t
+Changes:
+ ros-smach-ros (2.5.0-4-gec80004-2023.01.20.16.28) bookworm; urgency=high
+ .
+   * Python 3 compatibility #71 <https://github.com/ros/executive_smach/issues/71>
+   * Bump CMake version to avoid CMP0048 warning
+   * Contributors: Shane Loretz, ahcorde
+Checksums-Sha1:
+ b91ed6505a69ad0be383abf95d11954665d8d6d1 8492 ros-smach-ros_2.5.0-4-gec80004-2023.01.20.16.28_amd64.buildinfo
+ fa12dc70683f985d589ecd0494054918904894d8 30888 ros-smach-ros_2.5.0-4-gec80004-2023.01.20.16.28_amd64.deb
+Checksums-Sha256:
+ d6fac3e58e49050ac5def3a546d88a80c504e500f1bec8797a1a41cc9fe7b03d 8492 ros-smach-ros_2.5.0-4-gec80004-2023.01.20.16.28_amd64.buildinfo
+ c7bab32d1bc019c55d19685dce4a7c38658a07ed2e942929ded66f76919c8009 30888 ros-smach-ros_2.5.0-4-gec80004-2023.01.20.16.28_amd64.deb
+Files:
+ da2ee42bc99ea9ddfaa0b54f83f76c44 8492 misc optional ros-smach-ros_2.5.0-4-gec80004-2023.01.20.16.28_amd64.buildinfo
+ 6a06c8ccd98210b9e970df9689670c07 30888 misc optional ros-smach-ros_2.5.0-4-gec80004-2023.01.20.16.28_amd64.deb

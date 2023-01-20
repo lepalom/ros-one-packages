@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 22 Jun 2022 00:00:00 -0000
+Source: ros-pr2-controller-interface
+Binary: ros-pr2-controller-interface
+Architecture: amd64
+Version: 1.8.21-4-g6b1a949-2023.01.20.14.43
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-pr2-controller-interface - This package specifies the interface to a realtime controller.
+Changes:
+ ros-pr2-controller-interface (1.8.21-4-g6b1a949-2023.01.20.14.43) bookworm; urgency=high
+Checksums-Sha1:
+ 244234b14d1b8cf3ef7b29592548c32a543a80ef 10771 ros-pr2-controller-interface_1.8.21-4-g6b1a949-2023.01.20.14.43_amd64.buildinfo
+ 3942710b2b76e837b940e40281031e8649554a96 7456 ros-pr2-controller-interface_1.8.21-4-g6b1a949-2023.01.20.14.43_amd64.deb
+Checksums-Sha256:
+ 5826c4848f96655521dcc5a01f1aa0e2e3b62c05a5e89f81bf545b964892ee9b 10771 ros-pr2-controller-interface_1.8.21-4-g6b1a949-2023.01.20.14.43_amd64.buildinfo
+ 5abaeeca6c2bd9d4f3a31eb66179755ffd31ebea954d667f0606cdc6148f3622 7456 ros-pr2-controller-interface_1.8.21-4-g6b1a949-2023.01.20.14.43_amd64.deb
+Files:
+ a444660a113632955b66c67f24cbcb95 10771 misc optional ros-pr2-controller-interface_1.8.21-4-g6b1a949-2023.01.20.14.43_amd64.buildinfo
+ 9a21801b3519bbf5fe2553ab4c699a36 7456 misc optional ros-pr2-controller-interface_1.8.21-4-g6b1a949-2023.01.20.14.43_amd64.deb

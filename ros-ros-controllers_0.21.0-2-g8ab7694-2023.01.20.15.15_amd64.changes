@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-ros-controllers
+Binary: ros-ros-controllers
+Architecture: amd64
+Version: 0.21.0-2-g8ab7694-2023.01.20.15.15
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-ros-controllers - Library of ros controllers
+Changes:
+ ros-ros-controllers (0.21.0-2-g8ab7694-2023.01.20.15.15) bookworm; urgency=high
+Checksums-Sha1:
+ 541e61deb16db79f08e9750e7c404a7bee97d82d 6725 ros-ros-controllers_0.21.0-2-g8ab7694-2023.01.20.15.15_amd64.buildinfo
+ 3ba63f0d8c5997496c1f796601ac39339960dce9 3204 ros-ros-controllers_0.21.0-2-g8ab7694-2023.01.20.15.15_amd64.deb
+Checksums-Sha256:
+ a917dd55592c8444fcaefce0eb6ca2d2a4eba8c1362a689cc750a2b2bf09e062 6725 ros-ros-controllers_0.21.0-2-g8ab7694-2023.01.20.15.15_amd64.buildinfo
+ 530f7d32f1c56a972425a9ef57065ed49b86e0730e7fb65e6cd6f476de3f6646 3204 ros-ros-controllers_0.21.0-2-g8ab7694-2023.01.20.15.15_amd64.deb
+Files:
+ f94e43150cfebda377ebe7c02a6cd13d 6725 misc optional ros-ros-controllers_0.21.0-2-g8ab7694-2023.01.20.15.15_amd64.buildinfo
+ 33fc28e7a4a6c13963afa2a92e1dd859 3204 misc optional ros-ros-controllers_0.21.0-2-g8ab7694-2023.01.20.15.15_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Sat, 08 May 2021 00:00:00 -0000
+Source: ros-single-joint-position-action
+Binary: ros-single-joint-position-action ros-single-joint-position-action-dbgsym
+Architecture: amd64
+Version: 1.10.18-3-g8e8dfa0-2023.01.20.16.24
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-single-joint-position-action - The single joint position action is a node that provides an actio
+Changes:
+ ros-single-joint-position-action (1.10.18-3-g8e8dfa0-2023.01.20.16.24) bookworm; urgency=high
+Checksums-Sha1:
+ 1cf6ad57c30db4a94d868fa69a6abf2f214bb652 981856 ros-single-joint-position-action-dbgsym_1.10.18-3-g8e8dfa0-2023.01.20.16.24_amd64.deb
+ d4daa820f5d5c29254260b06dec0d145250a477f 10272 ros-single-joint-position-action_1.10.18-3-g8e8dfa0-2023.01.20.16.24_amd64.buildinfo
+ a14da8fc0b7168dc0d369da9f8889a1ee9c5a7d2 82464 ros-single-joint-position-action_1.10.18-3-g8e8dfa0-2023.01.20.16.24_amd64.deb
+Checksums-Sha256:
+ 43a739e1ce3a5434bfc99da3d3f1395322ad149218a534bc05d8847f57fcd83c 981856 ros-single-joint-position-action-dbgsym_1.10.18-3-g8e8dfa0-2023.01.20.16.24_amd64.deb
+ 96582137cc80b258da1156237475b1ad883d51fddcdd31e2cbc328b7c9b2ab01 10272 ros-single-joint-position-action_1.10.18-3-g8e8dfa0-2023.01.20.16.24_amd64.buildinfo
+ 161d18ce764eb8f451d3809389cc5d853b2b7a25886e859b68563b1c1d56c717 82464 ros-single-joint-position-action_1.10.18-3-g8e8dfa0-2023.01.20.16.24_amd64.deb
+Files:
+ 909d62ccec6086a8e50b7169ba07ade9 981856 debug optional ros-single-joint-position-action-dbgsym_1.10.18-3-g8e8dfa0-2023.01.20.16.24_amd64.deb
+ 4260eca70d897b7175bcd3406445fa0d 10272 misc optional ros-single-joint-position-action_1.10.18-3-g8e8dfa0-2023.01.20.16.24_amd64.buildinfo
+ 508f1d965bbabe832f8bf817edd2e702 82464 misc optional ros-single-joint-position-action_1.10.18-3-g8e8dfa0-2023.01.20.16.24_amd64.deb

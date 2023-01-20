@@ -1,0 +1,220 @@
+sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az337-557.jbyrdabdzgkepcqk1sdi5hhfzg.jx.internal.cloudapp.net
+
++===========================================================================================================+
+| ros-moveit-ros-manipulation 1.1.10-73-g05ef19048-2023.01.20.18.02 (amd64) Fri, 20 Jan 2023 18:02:56 +0000 |
++===========================================================================================================+
+
+Package: ros-moveit-ros-manipulation
+Version: 1.1.10-73-g05ef19048-2023.01.20.18.02
+Source Version: 1.1.10-73-g05ef19048-2023.01.20.18.02
+Distribution: bookworm
+Machine Architecture: amd64
+Host Architecture: amd64
+Build Architecture: amd64
+Build Type: binary
+
+Unpacking /home/runner/.cache/sbuild/bookworm-amd64.tar to /tmp/tmp.sbuild.PwVAC9Sgh9...
+configuration error - unknown item 'NONEXISTENT' (notify administrator)
+configuration error - unknown item 'PREVENT_NO_AUTH' (notify administrator)
+configuration error - unknown item 'NONEXISTENT' (notify administrator)
+configuration error - unknown item 'PREVENT_NO_AUTH' (notify administrator)
+configuration error - unknown item 'NONEXISTENT' (notify administrator)
+configuration error - unknown item 'PREVENT_NO_AUTH' (notify administrator)
+I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
+I: NOTICE: Log filtering will replace 'build/package//resolver-fNFfah' with '<<RESOLVERDIR>>'
+
++------------------------------------------------------------------------------+
+| Update chroot                                                                |
++------------------------------------------------------------------------------+
+
+Get:1 file:/build/package//resolver-ZPreJu/apt_archive ./ InRelease
+Ign:1 file:/build/package//resolver-ZPreJu/apt_archive ./ InRelease
+Get:2 file:/build/package//resolver-ZPreJu/apt_archive ./ Release [583 B]
+Get:2 file:/build/package//resolver-ZPreJu/apt_archive ./ Release [583 B]
+Get:3 file:/build/package//resolver-ZPreJu/apt_archive ./ Release.gpg
+Ign:3 file:/build/package//resolver-ZPreJu/apt_archive ./ Release.gpg
+Get:4 file:/build/package//resolver-ZPreJu/apt_archive ./ Packages [221 kB]
+Get:5 http://security.debian.org/debian-security bookworm-security InRelease [48.0 kB]
+Get:6 http://deb.debian.org/debian bookworm InRelease [164 kB]
+Get:7 http://deb.debian.org/debian bookworm-updates InRelease [49.6 kB]
+Get:8 http://deb.debian.org/debian bookworm/main amd64 Packages [8903 kB]
+Fetched 9165 kB in 1s (6760 kB/s)
+Reading package lists...
+W: Skipping acquire of configured file 'universe/binary-amd64/Packages' as repository 'http://security.debian.org/debian-security bookworm-security InRelease' doesn't have the component 'universe' (component misspelt in sources.list?)
+W: Skipping acquire of configured file 'universe/binary-amd64/Packages' as repository 'http://deb.debian.org/debian bookworm InRelease' doesn't have the component 'universe' (component misspelt in sources.list?)
+W: Skipping acquire of configured file 'universe/binary-amd64/Packages' as repository 'http://deb.debian.org/debian bookworm-updates InRelease' doesn't have the component 'universe' (component misspelt in sources.list?)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
++------------------------------------------------------------------------------+
+| Fetch source files                                                           |
++------------------------------------------------------------------------------+
+
+
+Local sources
+-------------
+
+/home/runner/work/ros-one-packages/ros-one-packages/src/moveit/moveit_ros/ros-moveit-ros-manipulation_1.1.10-73-g05ef19048-2023.01.20.18.02.dsc exists in /home/runner/work/ros-one-packages/ros-one-packages/src/moveit/moveit_ros; copying to chroot
+I: NOTICE: Log filtering will replace 'build/package//package' with '<<PKGBUILDDIR>>'
+I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
+
++------------------------------------------------------------------------------+
+| Install package build dependencies                                           |
++------------------------------------------------------------------------------+
+
+
+Setup apt archive
+-----------------
+
+Merged Build-Depends: debhelper (>= 9.0.0), catkin, libactionlib-dev, libdynamic-reconfigure-config-init-mutex-dev, libeigen3-dev, libgmock-dev, libgtest-dev, librosconsole-dev, libroscpp-core-dev, libroscpp-dev, libtf2-eigen-dev, pluginlib-dev (>= 1.11.2), python3-actionlib, python3-dynamic-reconfigure, ros-moveit-core, ros-moveit-msgs, ros-moveit-ros-move-group, ros-moveit-ros-planning, build-essential, fakeroot
+Filtered Build-Depends: debhelper (>= 9.0.0), catkin, libactionlib-dev, libdynamic-reconfigure-config-init-mutex-dev, libeigen3-dev, libgmock-dev, libgtest-dev, librosconsole-dev, libroscpp-core-dev, libroscpp-dev, libtf2-eigen-dev, pluginlib-dev (>= 1.11.2), python3-actionlib, python3-dynamic-reconfigure, ros-moveit-core, ros-moveit-msgs, ros-moveit-ros-move-group, ros-moveit-ros-planning, build-essential, fakeroot
+dpkg-deb: building package 'sbuild-build-depends-main-dummy' in '/<<RESOLVERDIR>>/apt_archive/sbuild-build-depends-main-dummy.deb'.
+Ign:1 copy:/<<RESOLVERDIR>>/apt_archive ./ InRelease
+Get:2 copy:/<<RESOLVERDIR>>/apt_archive ./ Release [580 B]
+Ign:3 copy:/<<RESOLVERDIR>>/apt_archive ./ Release.gpg
+Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [962 B]
+Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [995 B]
+Fetched 2537 B in 0s (0 B/s)
+Reading package lists...
+Get:1 file:/<<BUILDDIR>>/resolver-ZPreJu/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-ZPreJu/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-ZPreJu/apt_archive ./ Release [583 B]
+Get:2 file:/<<BUILDDIR>>/resolver-ZPreJu/apt_archive ./ Release [583 B]
+Get:3 file:/<<BUILDDIR>>/resolver-ZPreJu/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-ZPreJu/apt_archive ./ Release.gpg
+Reading package lists...
+Reading package lists...
+
+Install main build dependencies (apt-based resolver)
+----------------------------------------------------
+
+Installing build dependencies
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ sbuild-build-depends-main-dummy : Depends: ros-moveit-core but it is not installable
+                                   Depends: ros-moveit-ros-move-group but it is not installable
+                                   Depends: ros-moveit-ros-planning but it is not installable
+E: Unable to correct problems, you have held broken packages.
+apt-get failed.
+E: Package installation failed
+Not removing build depends: cloned chroot in use
+
+Setup apt archive
+-----------------
+
+Merged Build-Depends: dose-distcheck
+Filtered Build-Depends: dose-distcheck
+dpkg-deb: building package 'sbuild-build-depends-dose3-dummy' in '/<<RESOLVERDIR>>/apt_archive/sbuild-build-depends-dose3-dummy.deb'.
+Ign:1 copy:/<<RESOLVERDIR>>/apt_archive ./ InRelease
+Get:2 copy:/<<RESOLVERDIR>>/apt_archive ./ Release [586 B]
+Ign:3 copy:/<<RESOLVERDIR>>/apt_archive ./ Release.gpg
+Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [1541 B]
+Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [1610 B]
+Fetched 3737 B in 0s (0 B/s)
+Reading package lists...
+Get:1 file:/<<BUILDDIR>>/resolver-ZPreJu/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-ZPreJu/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-ZPreJu/apt_archive ./ Release [583 B]
+Get:2 file:/<<BUILDDIR>>/resolver-ZPreJu/apt_archive ./ Release [583 B]
+Get:3 file:/<<BUILDDIR>>/resolver-ZPreJu/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-ZPreJu/apt_archive ./ Release.gpg
+Reading package lists...
+Reading package lists...
+
+Install dose3 build dependencies (apt-based resolver)
+-----------------------------------------------------
+
+Installing build dependencies
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  dose-distcheck
+The following NEW packages will be installed:
+  dose-distcheck sbuild-build-depends-dose3-dummy
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1067 kB of archives.
+After this operation, 4362 kB of additional disk space will be used.
+Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-dose3-dummy 0.invalid.0 [848 B]
+Get:2 http://deb.debian.org/debian bookworm/main amd64 dose-distcheck amd64 7.0.0-1+b1 [1066 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 1067 kB in 0s (16.3 MB/s)
+Selecting previously unselected package dose-distcheck.
+(Reading database ... 12102 files and directories currently installed.)
+Preparing to unpack .../dose-distcheck_7.0.0-1+b1_amd64.deb ...
+Unpacking dose-distcheck (7.0.0-1+b1) ...
+Selecting previously unselected package sbuild-build-depends-dose3-dummy.
+Preparing to unpack .../sbuild-build-depends-dose3-dummy_0.invalid.0_amd64.deb ...
+Unpacking sbuild-build-depends-dose3-dummy (0.invalid.0) ...
+Setting up dose-distcheck (7.0.0-1+b1) ...
+Setting up sbuild-build-depends-dose3-dummy (0.invalid.0) ...
+(I)Doseparse: Parsing and normalizing...
+(I)Dose_deb: Parsing Packages file -...
+(I)Dose_common: total packages 64171
+(I)Dose_applications: Cudf Universe: 64171 packages
+(I)Dose_applications: --checkonly specified, consider all packages as background packages
+(I)Dose_applications: Solving...
+output-version: 1.2
+native-architecture: amd64
+report:
+ -
+  package: sbuild-build-depends-main-dummy
+  version: 0.invalid.0
+  architecture: amd64
+  status: broken
+  reasons:
+   -
+    missing:
+     pkg:
+      package: sbuild-build-depends-main-dummy
+      version: 0.invalid.0
+      architecture: amd64
+      unsat-dependency: ros-moveit-core:amd64
+ 
+background-packages: 64170
+foreground-packages: 1
+total-packages: 64171
+broken-packages: 1
+
++------------------------------------------------------------------------------+
+| Cleanup                                                                      |
++------------------------------------------------------------------------------+
+
+Purging /<<BUILDDIR>>
+Not cleaning session: cloned chroot in use
+E: Package build dependencies not satisfied; skipping
+
++------------------------------------------------------------------------------+
+| Summary                                                                      |
++------------------------------------------------------------------------------+
+
+Build Architecture: amd64
+Build Type: binary
+Build-Space: n/a
+Build-Time: 0
+Distribution: bookworm
+Fail-Stage: install-deps
+Host Architecture: amd64
+Install-Time: 0
+Job: /home/runner/work/ros-one-packages/ros-one-packages/src/moveit/moveit_ros/ros-moveit-ros-manipulation_1.1.10-73-g05ef19048-2023.01.20.18.02.dsc
+Machine Architecture: amd64
+Package: ros-moveit-ros-manipulation
+Package-Time: 0
+Source-Version: 1.1.10-73-g05ef19048-2023.01.20.18.02
+Space: n/a
+Status: given-back
+Version: 1.1.10-73-g05ef19048-2023.01.20.18.02
+--------------------------------------------------------------------------------
+Finished at 2023-01-20T18:02:56Z
+Build needed 00:00:00, no disk space

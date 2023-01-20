@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 19 May 2017 00:00:00 -0000
+Source: ros-rqt-action
+Binary: ros-rqt-action
+Architecture: amd64
+Version: 0.4.9-4-gb34c140-2023.01.20.15.30
+Distribution: bookworm
+Urgency: high
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Changed-By: Mikael Arguedas <mikael@osrfoundation.org>
+Description:
+ ros-rqt-action - rqt_action provides a feature to introspect all available ROS act
+Changes:
+ ros-rqt-action (0.4.9-4-gb34c140-2023.01.20.15.30) bookworm; urgency=high
+ .
+   * Add gbiggs as maintainer (#2 <https://github.com/ros-visualization/rqt_action/issues/2>)
+Checksums-Sha1:
+ 9cdb58947344d0ce5891e4f6c62c037ce8823ccd 6696 ros-rqt-action_0.4.9-4-gb34c140-2023.01.20.15.30_amd64.buildinfo
+ 84099a7eca0261fe8147dd7e5ccd59b9e86e7437 8428 ros-rqt-action_0.4.9-4-gb34c140-2023.01.20.15.30_amd64.deb
+Checksums-Sha256:
+ f4b979b24417b07a669652dca385bf3345c685fd858e1a4968a2d6520e316925 6696 ros-rqt-action_0.4.9-4-gb34c140-2023.01.20.15.30_amd64.buildinfo
+ ca2819e33fa0b6d679e1c580b985f38782ffdc637e42bbfd3eb24a6429dfb2a4 8428 ros-rqt-action_0.4.9-4-gb34c140-2023.01.20.15.30_amd64.deb
+Files:
+ 70ad11b6c2334d389d57947ef554e190 6696 misc optional ros-rqt-action_0.4.9-4-gb34c140-2023.01.20.15.30_amd64.buildinfo
+ e652dd331575b9aa073eece247b93b4e 8428 misc optional ros-rqt-action_0.4.9-4-gb34c140-2023.01.20.15.30_amd64.deb

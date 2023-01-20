@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Thu, 18 Nov 2021 00:00:00 -0000
+Source: ros-moveit-resources-fanuc-moveit-config
+Binary: ros-moveit-resources-fanuc-moveit-config
+Architecture: amd64
+Version: 0.8.2-5-g0be98e1-2023.01.20.14.03
+Distribution: bookworm
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-moveit-resources-fanuc-moveit-config - MoveIt Resources for testing: Fanuc M-10iA.
+Changes:
+ ros-moveit-resources-fanuc-moveit-config (0.8.2-5-g0be98e1-2023.01.20.14.03) bookworm; urgency=high
+ .
+   * test_environment.launch: use fake_execution_type="last point" by default
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ 55af6ef5846984ee2fe70e42507d3a4f509a3a81 6829 ros-moveit-resources-fanuc-moveit-config_0.8.2-5-g0be98e1-2023.01.20.14.03_amd64.buildinfo
+ c38207129557084b87ce653d12f33e1a27b8a297 17892 ros-moveit-resources-fanuc-moveit-config_0.8.2-5-g0be98e1-2023.01.20.14.03_amd64.deb
+Checksums-Sha256:
+ e0cf1aa6ad1f2be27c4a342bb437cb88409a93d316e95c0ac349ea1233efc3b4 6829 ros-moveit-resources-fanuc-moveit-config_0.8.2-5-g0be98e1-2023.01.20.14.03_amd64.buildinfo
+ b4145ee0225c823088212a442d4147085ff5a8d57494ee754e9fcbfb1915ddf5 17892 ros-moveit-resources-fanuc-moveit-config_0.8.2-5-g0be98e1-2023.01.20.14.03_amd64.deb
+Files:
+ 11c025780f55574635496f36b41c3bc8 6829 misc optional ros-moveit-resources-fanuc-moveit-config_0.8.2-5-g0be98e1-2023.01.20.14.03_amd64.buildinfo
+ 1f154a26626b03517cddbfcac09b5e5c 17892 misc optional ros-moveit-resources-fanuc-moveit-config_0.8.2-5-g0be98e1-2023.01.20.14.03_amd64.deb

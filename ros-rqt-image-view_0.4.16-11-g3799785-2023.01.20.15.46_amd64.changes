@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 07 Aug 2020 00:00:00 -0000
+Source: ros-rqt-image-view
+Binary: ros-rqt-image-view ros-rqt-image-view-dbgsym
+Architecture: amd64
+Version: 0.4.16-11-g3799785-2023.01.20.15.46
+Distribution: bookworm
+Urgency: high
+Maintainer: William Woodall <william@openrobotics.org>
+Changed-By: William Woodall <william@openrobotics.org>
+Description:
+ ros-rqt-image-view - rqt_image_view provides a GUI plugin for displaying images using
+Changes:
+ ros-rqt-image-view (0.4.16-11-g3799785-2023.01.20.15.46) bookworm; urgency=high
+ .
+   * fix segfault on topic change (#40 <https://github.com/ros-visualization/rqt_image_view/issues/40>)
+Checksums-Sha1:
+ 4ee0530db121a9807965458342351ec374844ca3 1357572 ros-rqt-image-view-dbgsym_0.4.16-11-g3799785-2023.01.20.15.46_amd64.deb
+ fa7199feae58f0de8f178bbbd8bd1cb1f5487e56 23489 ros-rqt-image-view_0.4.16-11-g3799785-2023.01.20.15.46_amd64.buildinfo
+ 20ddca5493191b47d17c222b92ecc3bee76bfb36 53460 ros-rqt-image-view_0.4.16-11-g3799785-2023.01.20.15.46_amd64.deb
+Checksums-Sha256:
+ e41b197045e8afe9b491a8f34b79f5091afc6adfdcd7d1babc7766f7fe894bcc 1357572 ros-rqt-image-view-dbgsym_0.4.16-11-g3799785-2023.01.20.15.46_amd64.deb
+ 4f259e7b0a0568a59aee934ae0326500950b488e750ac14428fc31beb430feed 23489 ros-rqt-image-view_0.4.16-11-g3799785-2023.01.20.15.46_amd64.buildinfo
+ f951f3237239daa94aed0d493c5682de617340a6b21991820e4058c97f977f09 53460 ros-rqt-image-view_0.4.16-11-g3799785-2023.01.20.15.46_amd64.deb
+Files:
+ e89efba4b00c1cc1d277cfed3c43f095 1357572 debug optional ros-rqt-image-view-dbgsym_0.4.16-11-g3799785-2023.01.20.15.46_amd64.deb
+ 316f7fdebd20b2a3eeacf49142d48acb 23489 misc optional ros-rqt-image-view_0.4.16-11-g3799785-2023.01.20.15.46_amd64.buildinfo
+ 23307fc83f8d22276bcd684425649ae8 53460 misc optional ros-rqt-image-view_0.4.16-11-g3799785-2023.01.20.15.46_amd64.deb

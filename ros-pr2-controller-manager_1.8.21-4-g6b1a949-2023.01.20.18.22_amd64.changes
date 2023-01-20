@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 22 Jun 2022 00:00:00 -0000
+Source: ros-pr2-controller-manager
+Binary: ros-pr2-controller-manager ros-pr2-controller-manager-dbgsym
+Architecture: amd64
+Version: 1.8.21-4-g6b1a949-2023.01.20.18.22
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-pr2-controller-manager - The controller manager (CM) package provides the infrastructure t
+Changes:
+ ros-pr2-controller-manager (1.8.21-4-g6b1a949-2023.01.20.18.22) bookworm; urgency=high
+ .
+   * set catkin_add_gtest within CATKIN_ENABLE_TESTING (#346 <https://github.com/pr2/pr2_mechanism/issues/346>)
+     fix with CATKIN_ENABLE_TESTING=OFF
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ 44f10d1193a7c8eb52a9f535d8400d5aa1d97d35 3553032 ros-pr2-controller-manager-dbgsym_1.8.21-4-g6b1a949-2023.01.20.18.22_amd64.deb
+ a355562a98ccb8744e42ebbe2df37596c6a8e6b2 12955 ros-pr2-controller-manager_1.8.21-4-g6b1a949-2023.01.20.18.22_amd64.buildinfo
+ ecfc8a98b89a78c8aaf52e99384165c28eb55570 196568 ros-pr2-controller-manager_1.8.21-4-g6b1a949-2023.01.20.18.22_amd64.deb
+Checksums-Sha256:
+ 949ec406b247377727c2f18683b0bd0d71ea7e23c1b7da06c3413da3bcd2dda5 3553032 ros-pr2-controller-manager-dbgsym_1.8.21-4-g6b1a949-2023.01.20.18.22_amd64.deb
+ ec0cd9fa2ee3b11608a3f70b560ea2acfdad3c06803fde23989628024d98dc37 12955 ros-pr2-controller-manager_1.8.21-4-g6b1a949-2023.01.20.18.22_amd64.buildinfo
+ 6ec34388ddb8a3e29ab542c87752e3bc55a59c748138505a87cc128e13e097b3 196568 ros-pr2-controller-manager_1.8.21-4-g6b1a949-2023.01.20.18.22_amd64.deb
+Files:
+ 816fa37e9ea6164a7fe42c8396be05aa 3553032 debug optional ros-pr2-controller-manager-dbgsym_1.8.21-4-g6b1a949-2023.01.20.18.22_amd64.deb
+ f9c6ac1d4fc82610e76babb3b0f37e5a 12955 misc optional ros-pr2-controller-manager_1.8.21-4-g6b1a949-2023.01.20.18.22_amd64.buildinfo
+ da260c07b5b287989a28984473b093cf 196568 misc optional ros-pr2-controller-manager_1.8.21-4-g6b1a949-2023.01.20.18.22_amd64.deb

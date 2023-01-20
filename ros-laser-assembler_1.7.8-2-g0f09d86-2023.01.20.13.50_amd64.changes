@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Tue, 07 Apr 2020 00:00:00 -0000
+Source: ros-laser-assembler
+Binary: ros-laser-assembler ros-laser-assembler-dbgsym
+Architecture: amd64
+Version: 1.7.8-2-g0f09d86-2023.01.20.13.50
+Distribution: bookworm
+Urgency: high
+Maintainer: Jonathan Binney <jon.binney@gmail.com>
+Changed-By: Jonathan Binney <jon.binney@gmail.com>
+Description:
+ ros-laser-assembler - Provides nodes to assemble point clouds from either LaserScan or
+Changes:
+ ros-laser-assembler (1.7.8-2-g0f09d86-2023.01.20.13.50) bookworm; urgency=high
+ .
+   * Bump CMake version to avoid CMP0048 warning
+   * Fix windows build
+   * Contributors: Jonathan Binney, Sean Yen, ahcorde
+Checksums-Sha1:
+ b7fc30a374551d4a6e86fb48fe40166aabe5dc6b 8513196 ros-laser-assembler-dbgsym_1.7.8-2-g0f09d86-2023.01.20.13.50_amd64.deb
+ c9502eacfb78b152126c87c97791f7a392a1fd37 14003 ros-laser-assembler_1.7.8-2-g0f09d86-2023.01.20.13.50_amd64.buildinfo
+ 2f7c617c4f6f1ca3e3f45d210f85014701b3cbe7 381584 ros-laser-assembler_1.7.8-2-g0f09d86-2023.01.20.13.50_amd64.deb
+Checksums-Sha256:
+ 8683ac5f8b509e30085edbeb5537d5d7f43604997a3720939d7f6c5f1b1a4f4b 8513196 ros-laser-assembler-dbgsym_1.7.8-2-g0f09d86-2023.01.20.13.50_amd64.deb
+ 6d7695f430c2c2a14c1eeb0b3597ae40611bcb05b4b5dcf2dbcd3608eb033342 14003 ros-laser-assembler_1.7.8-2-g0f09d86-2023.01.20.13.50_amd64.buildinfo
+ 3892831d82e55ae812cedd2c522c18048f3cbed3d3e2308dd56e2a0e137e9768 381584 ros-laser-assembler_1.7.8-2-g0f09d86-2023.01.20.13.50_amd64.deb
+Files:
+ d3a270dba7f80d22b0ad91e16c6e4333 8513196 debug optional ros-laser-assembler-dbgsym_1.7.8-2-g0f09d86-2023.01.20.13.50_amd64.deb
+ 2c240740afa6a44fae88cbe9db0eb9c9 14003 misc optional ros-laser-assembler_1.7.8-2-g0f09d86-2023.01.20.13.50_amd64.buildinfo
+ 46997bea2447666f9fc158150321f1e0 381584 misc optional ros-laser-assembler_1.7.8-2-g0f09d86-2023.01.20.13.50_amd64.deb

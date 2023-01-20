@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 14 May 2020 00:00:00 -0000
+Source: ros-theora-image-transport
+Binary: ros-theora-image-transport ros-theora-image-transport-dbgsym
+Architecture: amd64
+Version: 1.14.0-19-gb710188-2023.01.20.16.44
+Distribution: bookworm
+Urgency: high
+Maintainer: Julius Kammerl <jkammerl@willowgarage.com>
+Changed-By: Julius Kammerl <jkammerl@willowgarage.com>
+Description:
+ ros-theora-image-transport - Theora_image_transport provides a plugin to image_transport for t
+Changes:
+ ros-theora-image-transport (1.14.0-19-gb710188-2023.01.20.16.44) bookworm; urgency=high
+ .
+   * Bump CMake version to avoid CMP0048 warning (#53 <https://github.com/ros-perception/image_transport_plugins/issues/53>)
+   * Fix binary install locations for Windows build #34 <https://github.com/ros-perception/image_transport_plugins/issues/34>
+   * Contributors: Alejandro Hernández Cordero, David Gossow, Sean Yen
+Checksums-Sha1:
+ 536468f053b49ef96b808c5d62a55b4bafc01826 2217476 ros-theora-image-transport-dbgsym_1.14.0-19-gb710188-2023.01.20.16.44_amd64.deb
+ b43cfedbc5729a378c6f5adefb60c1b93d62b44b 22712 ros-theora-image-transport_1.14.0-19-gb710188-2023.01.20.16.44_amd64.buildinfo
+ 3ed66296ec08a87f0f69c1329da3378efc79b000 116096 ros-theora-image-transport_1.14.0-19-gb710188-2023.01.20.16.44_amd64.deb
+Checksums-Sha256:
+ 5747c0e179511ef06283643b869b5bdf1ac1909da058be79808b47601690a328 2217476 ros-theora-image-transport-dbgsym_1.14.0-19-gb710188-2023.01.20.16.44_amd64.deb
+ 9e8d3d1a58b110ca882ba0c57567e79056a3a887a63810afcf64ac00562a0c8e 22712 ros-theora-image-transport_1.14.0-19-gb710188-2023.01.20.16.44_amd64.buildinfo
+ c0a1a3c5a51e0fd7d024e2cd8b0927ca7eb77ab2befc1f481eef847556bb6e96 116096 ros-theora-image-transport_1.14.0-19-gb710188-2023.01.20.16.44_amd64.deb
+Files:
+ cc9c2b30a2bd9fda3d2c6c962780ab63 2217476 debug optional ros-theora-image-transport-dbgsym_1.14.0-19-gb710188-2023.01.20.16.44_amd64.deb
+ a350a1f97183619997e51bfb4135542a 22712 misc optional ros-theora-image-transport_1.14.0-19-gb710188-2023.01.20.16.44_amd64.buildinfo
+ ae1b2a490015dccbb8da22ee37e30457 116096 misc optional ros-theora-image-transport_1.14.0-19-gb710188-2023.01.20.16.44_amd64.deb

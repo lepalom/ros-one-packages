@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-diff-drive-controller
+Binary: ros-diff-drive-controller ros-diff-drive-controller-dbgsym
+Architecture: amd64
+Version: 0.21.0-2-g8ab7694-2023.01.20.17.35
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-diff-drive-controller - Controller for a differential drive mobile base.
+Changes:
+ ros-diff-drive-controller (0.21.0-2-g8ab7694-2023.01.20.17.35) bookworm; urgency=high
+ .
+   * std::bind and placeholders instead of boost
+   * use boost::placeholders::_1/_2 in remaining instances, include boost/bind/bind.hpp instead of boost/bind.hpp, eliminated unnecessary bind.hpp include
+   * Contributors: Lucas Walter
+Checksums-Sha1:
+ 92043e02109176887718ae673b52bd5cfff07186 1700068 ros-diff-drive-controller-dbgsym_0.21.0-2-g8ab7694-2023.01.20.17.35_amd64.deb
+ 0daab400973277f433f827e3cca9517671f1d40c 20519 ros-diff-drive-controller_0.21.0-2-g8ab7694-2023.01.20.17.35_amd64.buildinfo
+ 9da1d0db80950440b7e24bc3a981283a83cb4739 127724 ros-diff-drive-controller_0.21.0-2-g8ab7694-2023.01.20.17.35_amd64.deb
+Checksums-Sha256:
+ f74792f6d8c081c111e23591fa00c405bab2ff9796f674e53773fa5d8c90c86e 1700068 ros-diff-drive-controller-dbgsym_0.21.0-2-g8ab7694-2023.01.20.17.35_amd64.deb
+ 6130bb9c88becbec024a815fe6e87b080be4f56d5384e5826f6d4874d650435b 20519 ros-diff-drive-controller_0.21.0-2-g8ab7694-2023.01.20.17.35_amd64.buildinfo
+ 1e9970f1f5f7dcf917c8f582e90b1b2aefe0d74a52ba114ba6ccef0cdedec5fd 127724 ros-diff-drive-controller_0.21.0-2-g8ab7694-2023.01.20.17.35_amd64.deb
+Files:
+ 96fb17c6bca0c9f91e0eec4488cacc9f 1700068 debug optional ros-diff-drive-controller-dbgsym_0.21.0-2-g8ab7694-2023.01.20.17.35_amd64.deb
+ 42d755fb519624366f9ff589a4579cc4 20519 misc optional ros-diff-drive-controller_0.21.0-2-g8ab7694-2023.01.20.17.35_amd64.buildinfo
+ 0d84189cfe0b741e0ee731469ea4c78e 127724 misc optional ros-diff-drive-controller_0.21.0-2-g8ab7694-2023.01.20.17.35_amd64.deb

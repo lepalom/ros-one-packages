@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Thu, 14 May 2020 00:00:00 -0000
+Source: ros-image-transport-plugins
+Binary: ros-image-transport-plugins
+Architecture: amd64
+Version: 1.14.0-19-gb710188-2023.01.20.13.45
+Distribution: bookworm
+Urgency: high
+Maintainer: David Gossow <dgossow@willowgarage.com>
+Changed-By: David Gossow <dgossow@willowgarage.com>
+Description:
+ ros-image-transport-plugins - A set of plugins for publishing and subscribing to sensor_msgs/Im
+Changes:
+ ros-image-transport-plugins (1.14.0-19-gb710188-2023.01.20.13.45) bookworm; urgency=high
+ .
+   * Bump CMake version to avoid CMP0048 warning (#53 <https://github.com/ros-perception/image_transport_plugins/issues/53>)
+   * Contributors: Alejandro Hernández Cordero
+Checksums-Sha1:
+ 5f1aa73757a554c1c0c4322c34b11ad2927fef67 6769 ros-image-transport-plugins_1.14.0-19-gb710188-2023.01.20.13.45_amd64.buildinfo
+ 76f9e0d191049f85f4fdf641053e343cba65f57a 3044 ros-image-transport-plugins_1.14.0-19-gb710188-2023.01.20.13.45_amd64.deb
+Checksums-Sha256:
+ 91616203ff19a4e38e62c5a602d5a9db17b9e722d04be51c15851bfc6a7a962c 6769 ros-image-transport-plugins_1.14.0-19-gb710188-2023.01.20.13.45_amd64.buildinfo
+ c03b9eb901e676d4d99648e3683a2774a76594e6fdf7c54bd203e4ae527df580 3044 ros-image-transport-plugins_1.14.0-19-gb710188-2023.01.20.13.45_amd64.deb
+Files:
+ dc9f5a21e5f74b96c5b947bc2bca220d 6769 misc optional ros-image-transport-plugins_1.14.0-19-gb710188-2023.01.20.13.45_amd64.buildinfo
+ 9c669e1767655e11a004bc6fb77c309a 3044 misc optional ros-image-transport-plugins_1.14.0-19-gb710188-2023.01.20.13.45_amd64.deb

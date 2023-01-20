@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 24 Jul 2020 00:00:00 -0000
+Source: ros-qt-dotgraph
+Binary: ros-qt-dotgraph
+Architecture: amd64
+Version: 0.4.2-7-g8f06b8d-2023.01.20.14.49
+Distribution: bookworm
+Urgency: high
+Maintainer: Scott Logan <cottsay@openrobotics.org>
+Changed-By: Scott Logan <cottsay@openrobotics.org>
+Description:
+ ros-qt-dotgraph - qt_dotgraph provides helpers to work with dot graphs.
+Changes:
+ ros-qt-dotgraph (0.4.2-7-g8f06b8d-2023.01.20.14.49) bookworm; urgency=high
+Checksums-Sha1:
+ c6940ae3348abf2e57856c831d0407cfd9f73566 8509 ros-qt-dotgraph_0.4.2-7-g8f06b8d-2023.01.20.14.49_amd64.buildinfo
+ e92d7966c8f361dbd2e3448d518ff2ecdc7338aa 24308 ros-qt-dotgraph_0.4.2-7-g8f06b8d-2023.01.20.14.49_amd64.deb
+Checksums-Sha256:
+ 66df8f8c7b20bffd60009056163760609d41780d5870a1204b67342b92278c89 8509 ros-qt-dotgraph_0.4.2-7-g8f06b8d-2023.01.20.14.49_amd64.buildinfo
+ 1e96a05c9ad96d87c3dbcc2f18d112d8cd8c67f6e7d6b2c58f2b8ea8a3948289 24308 ros-qt-dotgraph_0.4.2-7-g8f06b8d-2023.01.20.14.49_amd64.deb
+Files:
+ bebf785816863e8a7221ba16b5cfa907 8509 misc optional ros-qt-dotgraph_0.4.2-7-g8f06b8d-2023.01.20.14.49_amd64.buildinfo
+ fe6c492b9c2310c29f1706ef2b1f90cf 24308 misc optional ros-qt-dotgraph_0.4.2-7-g8f06b8d-2023.01.20.14.49_amd64.deb

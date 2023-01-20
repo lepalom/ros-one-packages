@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Thu, 14 May 2020 00:00:00 -0000
+Source: ros-compressed-image-transport
+Binary: ros-compressed-image-transport ros-compressed-image-transport-dbgsym
+Architecture: amd64
+Version: 1.14.0-19-gb710188-2023.01.20.13.24
+Distribution: bookworm
+Urgency: high
+Maintainer: David Gossow <dgossow@willowgarage.com>
+Changed-By: David Gossow <dgossow@willowgarage.com>
+Description:
+ ros-compressed-image-transport - Compressed_image_transport provides a plugin to image_transport f
+Changes:
+ ros-compressed-image-transport (1.14.0-19-gb710188-2023.01.20.13.24) bookworm; urgency=high
+ .
+   * Bump CMake version to avoid CMP0048 warning (#53 <https://github.com/ros-perception/image_transport_plugins/issues/53>)
+   * add params for jpeg compression #35 <https://github.com/ros-perception/image_transport_plugins/issues/35>
+   * fixed warning when resubscribing #25 <https://github.com/ros-perception/image_transport_plugins/issues/25>
+   * Fix binary install locations for Windows build #34 <https://github.com/ros-perception/image_transport_plugins/issues/34>
+   * Add legacy constants when using opencv4 #32 <https://github.com/ros-perception/image_transport_plugins/issues/32>
+   * fixed warning 'Tried to advertise a service that is already advertised in this node'
+   * Contributors: Alejandro Hernández Cordero, David Gossow, Hans Gaiser, Sean Yen, Till Grenzdörffer, Yuki Furuta
+Checksums-Sha1:
+ f5edb777e932c2ec01ba21ee728402b68c5b5193 2086772 ros-compressed-image-transport-dbgsym_1.14.0-19-gb710188-2023.01.20.13.24_amd64.deb
+ 901ed5db08fa772332a59ac69ca6992effcce73f 22015 ros-compressed-image-transport_1.14.0-19-gb710188-2023.01.20.13.24_amd64.buildinfo
+ ca3199522740dd7fbcd66b53d68053d355069a8e 97528 ros-compressed-image-transport_1.14.0-19-gb710188-2023.01.20.13.24_amd64.deb
+Checksums-Sha256:
+ eb109024e915783f5e9ea6ae3e4b2d4fc174da48b0cbdd7cd1040d5baf59be43 2086772 ros-compressed-image-transport-dbgsym_1.14.0-19-gb710188-2023.01.20.13.24_amd64.deb
+ df6de5b4b0aa7b0f711c929f85d5cc183f52aca7de73b2b9a490d8a6aacde276 22015 ros-compressed-image-transport_1.14.0-19-gb710188-2023.01.20.13.24_amd64.buildinfo
+ c27b79fbcb80135183a349c39296a8add07e7d25db801d022c7ffb5fa70ea06a 97528 ros-compressed-image-transport_1.14.0-19-gb710188-2023.01.20.13.24_amd64.deb
+Files:
+ bcb801ae4ef695ad0fe0046e9dd1bf64 2086772 debug optional ros-compressed-image-transport-dbgsym_1.14.0-19-gb710188-2023.01.20.13.24_amd64.deb
+ 005151b6d410c0091703b27e932b1e6c 22015 misc optional ros-compressed-image-transport_1.14.0-19-gb710188-2023.01.20.13.24_amd64.buildinfo
+ 6a049a8cf4db4ccd0472cd4b71418832 97528 misc optional ros-compressed-image-transport_1.14.0-19-gb710188-2023.01.20.13.24_amd64.deb

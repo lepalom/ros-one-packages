@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Tue, 10 Jan 2023 00:00:00 -0000
+Source: ros-costmap-2d
+Binary: ros-costmap-2d ros-costmap-2d-dbgsym
+Architecture: amd64
+Version: 1.17.3-2-g85e5f334-2023.01.20.17.01
+Distribution: bookworm
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-costmap-2d - This package provides an implementation of a 2D costmap that take
+Changes:
+ ros-costmap-2d (1.17.3-2-g85e5f334-2023.01.20.17.01) bookworm; urgency=high
+ .
+   * [ROS-O] various patches (#1225 <https://github.com/ros-planning/navigation/issues/1225>)
+     * do not specify obsolete c++11 standard
+     this breaks with current versions of log4cxx.
+     * update pluginlib include paths
+     the non-hpp headers have been deprecated since kinetic
+     * use lambdas in favor of boost::bind
+     Using boost's _1 as a global system is deprecated since C++11.
+     The ROS packages in Debian removed the implicit support for the global symbols,
+     so this code fails to compile there without the patch.
+   * Contributors: Michael Görner
+Checksums-Sha1:
+ 8a3c079804337ccd1d401e0a7fbaacf4ad040e15 11120320 ros-costmap-2d-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.01_amd64.deb
+ 2cf1fdb3c842d113c89863a7f1bdcce1cf719e58 17376 ros-costmap-2d_1.17.3-2-g85e5f334-2023.01.20.17.01_amd64.buildinfo
+ ac2932a16f0cbeddaf5dd2f464641d16e9806112 475980 ros-costmap-2d_1.17.3-2-g85e5f334-2023.01.20.17.01_amd64.deb
+Checksums-Sha256:
+ 7694f499cc8f8f63075f8772cd48de99e9e3353e96152263a33b6a18e9e1f1be 11120320 ros-costmap-2d-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.01_amd64.deb
+ b893d8465bf2202ce6a32f959df6f30ff76cd4857a7b6ef29de6200b0bf58788 17376 ros-costmap-2d_1.17.3-2-g85e5f334-2023.01.20.17.01_amd64.buildinfo
+ 2b894547d51e55669e6429d24efa7d3e87eb97b5171e070000eefa450bf44691 475980 ros-costmap-2d_1.17.3-2-g85e5f334-2023.01.20.17.01_amd64.deb
+Files:
+ 1254045946c05e73aa2b1f7d3ab83558 11120320 debug optional ros-costmap-2d-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.01_amd64.deb
+ a463df6ea5c646cac00582306ffb8a9b 17376 misc optional ros-costmap-2d_1.17.3-2-g85e5f334-2023.01.20.17.01_amd64.buildinfo
+ 973f86331e2376601f48bf308f018749 475980 misc optional ros-costmap-2d_1.17.3-2-g85e5f334-2023.01.20.17.01_amd64.deb

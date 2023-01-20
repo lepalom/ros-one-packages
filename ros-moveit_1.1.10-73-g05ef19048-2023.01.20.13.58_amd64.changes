@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit
+Binary: ros-moveit
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.20.13.58
+Distribution: bookworm
+Urgency: high
+Maintainer: Dave Coleman <dave@picknik.ai>
+Changed-By: Dave Coleman <dave@picknik.ai>
+Description:
+ ros-moveit - Meta package that contains all essential package of MoveIt.
+Changes:
+ ros-moveit (1.1.10-73-g05ef19048-2023.01.20.13.58) bookworm; urgency=high
+Checksums-Sha1:
+ fd059c65d71f14e0039d2b41f1d4fcf9ac24b74c 6695 ros-moveit_1.1.10-73-g05ef19048-2023.01.20.13.58_amd64.buildinfo
+ 1d46e2ac2b941a8f3598a09260bc74a2b9911af1 10244 ros-moveit_1.1.10-73-g05ef19048-2023.01.20.13.58_amd64.deb
+Checksums-Sha256:
+ 614e1951e349c3c0c0a331df48c015c6e75b8e221292fbcd3bfa04455df22f21 6695 ros-moveit_1.1.10-73-g05ef19048-2023.01.20.13.58_amd64.buildinfo
+ 2ff84e389378613d22d8d027ed008393779be67155659e07fe521c3b421f9ee1 10244 ros-moveit_1.1.10-73-g05ef19048-2023.01.20.13.58_amd64.deb
+Files:
+ 22d657d7db22fbef634c52fda2c03b4b 6695 misc optional ros-moveit_1.1.10-73-g05ef19048-2023.01.20.13.58_amd64.buildinfo
+ 09a90b6d1a95170736c875be47a1c298 10244 misc optional ros-moveit_1.1.10-73-g05ef19048-2023.01.20.13.58_amd64.deb

@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-four-wheel-steering-controller
+Binary: ros-four-wheel-steering-controller ros-four-wheel-steering-controller-dbgsym
+Architecture: amd64
+Version: 0.21.0-2-g8ab7694-2023.01.20.18.40
+Distribution: bookworm
+Urgency: high
+Maintainer: Vincent Rousseau <vincent.rousseau@irstea.fr>
+Changed-By: Vincent Rousseau <vincent.rousseau@irstea.fr>
+Description:
+ ros-four-wheel-steering-controller - Controller for a four wheel steering mobile base.
+Changes:
+ ros-four-wheel-steering-controller (0.21.0-2-g8ab7694-2023.01.20.18.40) bookworm; urgency=high
+ .
+   * use boost::placeholders::_1/_2 in remaining instances, include boost/bind/bind.hpp instead of boost/bind.hpp, eliminated unnecessary bind.hpp include
+   * Contributors: Lucas Walter
+Checksums-Sha1:
+ c3a3a47dc72a0dc9ce8e06aa8a389ef7be6df7bc 1269872 ros-four-wheel-steering-controller-dbgsym_0.21.0-2-g8ab7694-2023.01.20.18.40_amd64.deb
+ 6feb11da4176bb76b28c3c4c1fe2d90c44f4796a 15913 ros-four-wheel-steering-controller_0.21.0-2-g8ab7694-2023.01.20.18.40_amd64.buildinfo
+ 5c07f1edf496be4a1dce62d2eb70390194d908ff 89324 ros-four-wheel-steering-controller_0.21.0-2-g8ab7694-2023.01.20.18.40_amd64.deb
+Checksums-Sha256:
+ 26eeb7acb8b70af7f2ec08c900be670a9103a5a11b6610db4ef47d016f8e4a56 1269872 ros-four-wheel-steering-controller-dbgsym_0.21.0-2-g8ab7694-2023.01.20.18.40_amd64.deb
+ 961d4ddf4b8658f230feb04fc91a58e5b661790adad12f3980815e24ecf969b8 15913 ros-four-wheel-steering-controller_0.21.0-2-g8ab7694-2023.01.20.18.40_amd64.buildinfo
+ ac91a8feba71395533c040c10b10d3142f8a65c998a55787cb6deba392d57ef1 89324 ros-four-wheel-steering-controller_0.21.0-2-g8ab7694-2023.01.20.18.40_amd64.deb
+Files:
+ 5398ff3fe00d00be28dd27ce2ce9ded7 1269872 debug optional ros-four-wheel-steering-controller-dbgsym_0.21.0-2-g8ab7694-2023.01.20.18.40_amd64.deb
+ 2b62411400510f37bd32999aff51a941 15913 misc optional ros-four-wheel-steering-controller_0.21.0-2-g8ab7694-2023.01.20.18.40_amd64.buildinfo
+ 84d0532bc177bff2bd40f115001fa849 89324 misc optional ros-four-wheel-steering-controller_0.21.0-2-g8ab7694-2023.01.20.18.40_amd64.deb

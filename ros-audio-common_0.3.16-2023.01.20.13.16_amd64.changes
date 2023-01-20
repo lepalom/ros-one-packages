@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 23 Dec 2022 00:00:00 -0000
+Source: ros-audio-common
+Binary: ros-audio-common
+Architecture: amd64
+Version: 0.3.16-2023.01.20.13.16
+Distribution: bookworm
+Urgency: high
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Changed-By: Austin Hendrix <namniart@gmail.com>
+Description:
+ ros-audio-common - Common code for working with audio in ROS
+Changes:
+ ros-audio-common (0.3.16-2023.01.20.13.16) bookworm; urgency=high
+Checksums-Sha1:
+ 23fd51f4f63effc96d5a04f49a730d9384557be9 6666 ros-audio-common_0.3.16-2023.01.20.13.16_amd64.buildinfo
+ 1efb8d079476d2c8fe08a548f55b1ec9a96108f8 2616 ros-audio-common_0.3.16-2023.01.20.13.16_amd64.deb
+Checksums-Sha256:
+ 392f8cda50a7a95b92d4bcad7018d45253524d4f1057bcd5ce76e01482f774e3 6666 ros-audio-common_0.3.16-2023.01.20.13.16_amd64.buildinfo
+ ba9807a4d8790cc85f9ada724c089e7ff749b6089a7988d8c9bae2e3455fc993 2616 ros-audio-common_0.3.16-2023.01.20.13.16_amd64.deb
+Files:
+ 0c76942b5b9b730e8b5eb08ab6079234 6666 misc optional ros-audio-common_0.3.16-2023.01.20.13.16_amd64.buildinfo
+ 5e2df777453cb7b0de51ee9e3e3abc10 2616 misc optional ros-audio-common_0.3.16-2023.01.20.13.16_amd64.deb

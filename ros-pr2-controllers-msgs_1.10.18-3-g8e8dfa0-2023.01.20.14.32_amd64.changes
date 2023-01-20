@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Sat, 08 May 2021 00:00:00 -0000
+Source: ros-pr2-controllers-msgs
+Binary: ros-pr2-controllers-msgs
+Architecture: amd64
+Version: 1.10.18-3-g8e8dfa0-2023.01.20.14.32
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-pr2-controllers-msgs - Messages, services, and actions used in the pr2_controllers stack
+Changes:
+ ros-pr2-controllers-msgs (1.10.18-3-g8e8dfa0-2023.01.20.14.32) bookworm; urgency=high
+Checksums-Sha1:
+ a93ced8d22b6503d577fad4ca5648554ea25c690 7722 ros-pr2-controllers-msgs_1.10.18-3-g8e8dfa0-2023.01.20.14.32_amd64.buildinfo
+ 1266c1582173aa35add27d6a232040549a10d93e 71388 ros-pr2-controllers-msgs_1.10.18-3-g8e8dfa0-2023.01.20.14.32_amd64.deb
+Checksums-Sha256:
+ 125497604dc4a148ccbddab78d60ff819430d1f95e6d504aed7d9ca6458efeb5 7722 ros-pr2-controllers-msgs_1.10.18-3-g8e8dfa0-2023.01.20.14.32_amd64.buildinfo
+ d9aa3ebaf2325e45d8cf634fa5d78e9f541110d0bc9a0c55810cb4b4089aedcb 71388 ros-pr2-controllers-msgs_1.10.18-3-g8e8dfa0-2023.01.20.14.32_amd64.deb
+Files:
+ 260351d7f71830368eb674689e8faf58 7722 misc optional ros-pr2-controllers-msgs_1.10.18-3-g8e8dfa0-2023.01.20.14.32_amd64.buildinfo
+ b6dd2574b1f51a33f9e29303c2140279 71388 misc optional ros-pr2-controllers-msgs_1.10.18-3-g8e8dfa0-2023.01.20.14.32_amd64.deb

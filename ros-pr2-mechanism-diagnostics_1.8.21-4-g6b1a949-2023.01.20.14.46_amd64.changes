@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 22 Jun 2022 00:00:00 -0000
+Source: ros-pr2-mechanism-diagnostics
+Binary: ros-pr2-mechanism-diagnostics ros-pr2-mechanism-diagnostics-dbgsym
+Architecture: amd64
+Version: 1.8.21-4-g6b1a949-2023.01.20.14.46
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-pr2-mechanism-diagnostics - The `pr2_mechanism_diagnostics` node subscribes to `mechanism_sta
+Changes:
+ ros-pr2-mechanism-diagnostics (1.8.21-4-g6b1a949-2023.01.20.14.46) bookworm; urgency=high
+ .
+   * set catkin_add_gtest within CATKIN_ENABLE_TESTING (#346 <https://github.com/pr2/pr2_mechanism/issues/346>)
+     fix with CATKIN_ENABLE_TESTING=OFF
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ b87168b640761b9a4c15a98ce8f643efea648946 988048 ros-pr2-mechanism-diagnostics-dbgsym_1.8.21-4-g6b1a949-2023.01.20.14.46_amd64.deb
+ 99e3549c9b9b24d94f404351e83a2f0539d32926 12285 ros-pr2-mechanism-diagnostics_1.8.21-4-g6b1a949-2023.01.20.14.46_amd64.buildinfo
+ c003cfcbcdafdcc89ccfd6650979ab38dfb4f966 57108 ros-pr2-mechanism-diagnostics_1.8.21-4-g6b1a949-2023.01.20.14.46_amd64.deb
+Checksums-Sha256:
+ 208ad18dc051798abbe76d628c4a54d26cd28cd699f9bd34330515c72602a858 988048 ros-pr2-mechanism-diagnostics-dbgsym_1.8.21-4-g6b1a949-2023.01.20.14.46_amd64.deb
+ 5e43a90ed0a96658c7c99481ef5968c66f6144d3306fdd111f7b4625c593bb35 12285 ros-pr2-mechanism-diagnostics_1.8.21-4-g6b1a949-2023.01.20.14.46_amd64.buildinfo
+ 0eac51b4ca70c119e6e9d6cedc746c4c85a55caedaccb23a4c6baabab55ef584 57108 ros-pr2-mechanism-diagnostics_1.8.21-4-g6b1a949-2023.01.20.14.46_amd64.deb
+Files:
+ 1b24eec51e772cc0600c2b9d51e42353 988048 debug optional ros-pr2-mechanism-diagnostics-dbgsym_1.8.21-4-g6b1a949-2023.01.20.14.46_amd64.deb
+ 9adedf4d4d6ac117db8df8c90f566415 12285 misc optional ros-pr2-mechanism-diagnostics_1.8.21-4-g6b1a949-2023.01.20.14.46_amd64.buildinfo
+ 40df1c135d564559d2137108c2dd938b 57108 misc optional ros-pr2-mechanism-diagnostics_1.8.21-4-g6b1a949-2023.01.20.14.46_amd64.deb

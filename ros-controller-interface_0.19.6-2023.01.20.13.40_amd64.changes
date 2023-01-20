@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-controller-interface
+Binary: ros-controller-interface
+Architecture: amd64
+Version: 0.19.6-2023.01.20.13.40
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-controller-interface - Interface base class for controllers.
+Changes:
+ ros-controller-interface (0.19.6-2023.01.20.13.40) bookworm; urgency=high
+Checksums-Sha1:
+ dac1720a98fe6c2d85f7ca2da05893257444e429 8683 ros-controller-interface_0.19.6-2023.01.20.13.40_amd64.buildinfo
+ ec031130ebae0e65a82e76e8bf7ceb5893251c9d 15604 ros-controller-interface_0.19.6-2023.01.20.13.40_amd64.deb
+Checksums-Sha256:
+ 712dc22197dca166debb84a3565de434a17ea8d73eaaa5856a1747e71b7d998a 8683 ros-controller-interface_0.19.6-2023.01.20.13.40_amd64.buildinfo
+ d82fa8e99d33298614a50306f673cfe6c894e272d37667f20f4a9d31c953f977 15604 ros-controller-interface_0.19.6-2023.01.20.13.40_amd64.deb
+Files:
+ 8bcbc0e525232734f268bb9374fe6be1 8683 misc optional ros-controller-interface_0.19.6-2023.01.20.13.40_amd64.buildinfo
+ 6dea87294e8a92f76e060a3517920cf2 15604 misc optional ros-controller-interface_0.19.6-2023.01.20.13.40_amd64.deb

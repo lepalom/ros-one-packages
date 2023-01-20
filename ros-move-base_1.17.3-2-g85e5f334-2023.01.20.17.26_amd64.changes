@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Tue, 10 Jan 2023 00:00:00 -0000
+Source: ros-move-base
+Binary: ros-move-base ros-move-base-dbgsym
+Architecture: amd64
+Version: 1.17.3-2-g85e5f334-2023.01.20.17.26
+Distribution: bookworm
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-move-base - The move_base package provides an implementation of an action (se
+Changes:
+ ros-move-base (1.17.3-2-g85e5f334-2023.01.20.17.26) bookworm; urgency=high
+ .
+   * [ROS-O] various patches (#1225 <https://github.com/ros-planning/navigation/issues/1225>)
+     * do not specify obsolete c++11 standard
+     this breaks with current versions of log4cxx.
+     * update pluginlib include paths
+     the non-hpp headers have been deprecated since kinetic
+     * use lambdas in favor of boost::bind
+     Using boost's _1 as a global system is deprecated since C++11.
+     The ROS packages in Debian removed the implicit support for the global symbols,
+     so this code fails to compile there without the patch.
+   * Contributors: Michael Görner
+Checksums-Sha1:
+ ebd5e2cf904ba0ad766e65f9a73a550de47e8fe2 3756012 ros-move-base-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.26_amd64.deb
+ 17f6aa768cc331b51f707199b13659d746702525 13334 ros-move-base_1.17.3-2-g85e5f334-2023.01.20.17.26_amd64.buildinfo
+ 0041b9dda821c5da5b8e7c9ab8a611ea9a01ea1c 279580 ros-move-base_1.17.3-2-g85e5f334-2023.01.20.17.26_amd64.deb
+Checksums-Sha256:
+ 99de2444e1b51e227e0d3161a672cae8d8743a06c116e4575b2cd4c53f355b8c 3756012 ros-move-base-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.26_amd64.deb
+ 0cd3732e2a56b0c20a9e24fa459f1c62778b1cfd7b508f8870c25e03a6391695 13334 ros-move-base_1.17.3-2-g85e5f334-2023.01.20.17.26_amd64.buildinfo
+ 46b5945049ab21d7dcb3354c805e212b290b59c657e077de326af739c4ab0443 279580 ros-move-base_1.17.3-2-g85e5f334-2023.01.20.17.26_amd64.deb
+Files:
+ 07c9829c7c4475119facbf4ecda64447 3756012 debug optional ros-move-base-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.26_amd64.deb
+ aad95b3c2e2e4f64453dd0aaadb77491 13334 misc optional ros-move-base_1.17.3-2-g85e5f334-2023.01.20.17.26_amd64.buildinfo
+ 96091ef672ae0186ff975f225f27cc75 279580 misc optional ros-move-base_1.17.3-2-g85e5f334-2023.01.20.17.26_amd64.deb

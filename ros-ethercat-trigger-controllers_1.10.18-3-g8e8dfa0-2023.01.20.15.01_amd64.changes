@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Sat, 08 May 2021 00:00:00 -0000
+Source: ros-ethercat-trigger-controllers
+Binary: ros-ethercat-trigger-controllers ros-ethercat-trigger-controllers-dbgsym
+Architecture: amd64
+Version: 1.10.18-3-g8e8dfa0-2023.01.20.15.01
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-ethercat-trigger-controllers - Controllers to operate the digital output of the motor controller
+Changes:
+ ros-ethercat-trigger-controllers (1.10.18-3-g8e8dfa0-2023.01.20.15.01) bookworm; urgency=high
+Checksums-Sha1:
+ d32b57321965adb5a0e4b96965d75183bb9ea2f5 2052176 ros-ethercat-trigger-controllers-dbgsym_1.10.18-3-g8e8dfa0-2023.01.20.15.01_amd64.deb
+ 85210edb5cfd5a0b736ac9938ee491d25555ced0 12181 ros-ethercat-trigger-controllers_1.10.18-3-g8e8dfa0-2023.01.20.15.01_amd64.buildinfo
+ 76f1fd58174e29c8c15a5c920b180df7aa2d204a 107928 ros-ethercat-trigger-controllers_1.10.18-3-g8e8dfa0-2023.01.20.15.01_amd64.deb
+Checksums-Sha256:
+ ba81a8102e576045989f19de4634157f0eb36b649a365b3a973723f0345ce591 2052176 ros-ethercat-trigger-controllers-dbgsym_1.10.18-3-g8e8dfa0-2023.01.20.15.01_amd64.deb
+ bed3d8edd10f3956718adbad08942a2c8b4de4af75d11ac3f6009d01aeda4a47 12181 ros-ethercat-trigger-controllers_1.10.18-3-g8e8dfa0-2023.01.20.15.01_amd64.buildinfo
+ 996141f884b34933dc046f40307c611fa5d3690d1772fb2da7340679188e6f5c 107928 ros-ethercat-trigger-controllers_1.10.18-3-g8e8dfa0-2023.01.20.15.01_amd64.deb
+Files:
+ 2dcedeb682605b3935ed82a649da971f 2052176 debug optional ros-ethercat-trigger-controllers-dbgsym_1.10.18-3-g8e8dfa0-2023.01.20.15.01_amd64.deb
+ 2839a8c5437ce2636d1a1c40973d170e 12181 misc optional ros-ethercat-trigger-controllers_1.10.18-3-g8e8dfa0-2023.01.20.15.01_amd64.buildinfo
+ eb9742d17c6b4ff013b1a645ee0b6ce1 107928 misc optional ros-ethercat-trigger-controllers_1.10.18-3-g8e8dfa0-2023.01.20.15.01_amd64.deb

@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 10 May 2022 00:00:00 -0000
+Source: ros-warehouse-ros
+Binary: ros-warehouse-ros ros-warehouse-ros-dbgsym
+Architecture: amd64
+Version: 0.9.5-2023.01.20.17.29
+Distribution: bookworm
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-warehouse-ros - Persistent storage of ROS messages
+Changes:
+ ros-warehouse-ros (0.9.5-2023.01.20.17.29) bookworm; urgency=high
+ .
+   * Drop compile option -std=c++11 (C++11 or later is default anyway) (#92 <https://github.com/ros-planning/warehouse_ros/issues/92>)
+   * Remove user-provided constructors and destructors (#51 <https://github.com/ros-planning/warehouse_ros/issues/51>)
+     ``ResultIterator::metadata_only_`` is now non-const to allow moving and assigning
+   * Add virtual destructor to ``MessageCollectionHelper`` and ``ResultIteratorHelper`` (#50 <https://github.com/ros-planning/warehouse_ros/issues/50>)
+   * Contributors: Bjar Ne, Jochen Sprickerhof
+Checksums-Sha1:
+ 51e3ea2d886452f002280428107b5ca54007acd8 1807156 ros-warehouse-ros-dbgsym_0.9.5-2023.01.20.17.29_amd64.deb
+ 94c6b80f6acab4f52406169f0ab6e565dd36846b 13646 ros-warehouse-ros_0.9.5-2023.01.20.17.29_amd64.buildinfo
+ 126d2b6bd123c8b7ec4d999e8c1d71388e0abbd4 134200 ros-warehouse-ros_0.9.5-2023.01.20.17.29_amd64.deb
+Checksums-Sha256:
+ dda5ea312bdb29c33abf9e2559585505d50857e4d79f5e2f6ba9f08250d40b51 1807156 ros-warehouse-ros-dbgsym_0.9.5-2023.01.20.17.29_amd64.deb
+ 3f30553f29ec57710757d4a808b9ee37ee2eb77e7d81587df43f55c353bb0456 13646 ros-warehouse-ros_0.9.5-2023.01.20.17.29_amd64.buildinfo
+ 5eba1aab0d8698b5df8597176914cdb12798a629f50c1f2bd6bc31279d228c48 134200 ros-warehouse-ros_0.9.5-2023.01.20.17.29_amd64.deb
+Files:
+ 4c7b34dbb7e272eb54f51c52f8cfa07f 1807156 debug optional ros-warehouse-ros-dbgsym_0.9.5-2023.01.20.17.29_amd64.deb
+ bda66c926e1ab3cfe27dddb7fe3b96bb 13646 misc optional ros-warehouse-ros_0.9.5-2023.01.20.17.29_amd64.buildinfo
+ f0fe60d922029b4738055c6c64455a75 134200 misc optional ros-warehouse-ros_0.9.5-2023.01.20.17.29_amd64.deb

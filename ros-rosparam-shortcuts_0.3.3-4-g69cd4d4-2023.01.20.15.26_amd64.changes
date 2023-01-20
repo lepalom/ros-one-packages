@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 24 Sep 2019 00:00:00 -0000
+Source: ros-rosparam-shortcuts
+Binary: ros-rosparam-shortcuts ros-rosparam-shortcuts-dbgsym
+Architecture: amd64
+Version: 0.3.3-4-g69cd4d4-2023.01.20.15.26
+Distribution: bookworm
+Urgency: high
+Maintainer: Dave Coleman <davetcoleman@gmail.com>
+Changed-By: Dave Coleman <davetcoleman@gmail.com>
+Description:
+ ros-rosparam-shortcuts - Quickly load variables from rosparam with good command line error
+Changes:
+ ros-rosparam-shortcuts (0.3.3-4-g69cd4d4-2023.01.20.15.26) bookworm; urgency=high
+ .
+   * Switch run_depend to eigen_conversions. (#12 <https://github.com/PickNikRobotics/rosparam_shortcuts/issues/12>)
+     Eigen is header-only (so no run_depend needed), but eigen_conversions
+     has a library that needs to be pulled in at runtime.
+     Signed-off-by: Chris Lalancette <mailto:clalancette@openrobotics.org>
+   * Contributors: Chris Lalancette
+Checksums-Sha1:
+ a3fdd22a0fdecd3768e57dfaf380dd6e8674c826 991216 ros-rosparam-shortcuts-dbgsym_0.3.3-4-g69cd4d4-2023.01.20.15.26_amd64.deb
+ f0d147490b87f0fab622124a825503cbe76b425f 11070 ros-rosparam-shortcuts_0.3.3-4-g69cd4d4-2023.01.20.15.26_amd64.buildinfo
+ 07b6a2ce4c843bafb3cfc1b911e36d1579a88150 43920 ros-rosparam-shortcuts_0.3.3-4-g69cd4d4-2023.01.20.15.26_amd64.deb
+Checksums-Sha256:
+ a6baf1b2bd3f078cebcc12f249a8b131505be8826a6ead7aeba3795d0bddd600 991216 ros-rosparam-shortcuts-dbgsym_0.3.3-4-g69cd4d4-2023.01.20.15.26_amd64.deb
+ 287f1a686c5b4827b94e09e9659d5e1426808e7d6be962a8912d957e440f8de4 11070 ros-rosparam-shortcuts_0.3.3-4-g69cd4d4-2023.01.20.15.26_amd64.buildinfo
+ b7c31f5896b2d735da6cc1575533825cc823d474c8e6e0b53a7d23672473b3e5 43920 ros-rosparam-shortcuts_0.3.3-4-g69cd4d4-2023.01.20.15.26_amd64.deb
+Files:
+ c7dffd8d437a114943b596f566f95662 991216 debug optional ros-rosparam-shortcuts-dbgsym_0.3.3-4-g69cd4d4-2023.01.20.15.26_amd64.deb
+ 17d10508a0f481d4a92eb43285fe7298 11070 misc optional ros-rosparam-shortcuts_0.3.3-4-g69cd4d4-2023.01.20.15.26_amd64.buildinfo
+ 257e7e4d86613d249dfd62ddf0b926cc 43920 misc optional ros-rosparam-shortcuts_0.3.3-4-g69cd4d4-2023.01.20.15.26_amd64.deb

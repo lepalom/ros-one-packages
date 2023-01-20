@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Mon, 22 Mar 2021 00:00:00 -0000
+Source: ros-driver-common
+Binary: ros-driver-common
+Architecture: amd64
+Version: 1.6.9-2023.01.20.13.30
+Distribution: bookworm
+Urgency: high
+Maintainer: Chad Rockey <chadrockey@gmail.com>
+Changed-By: Chad Rockey <chadrockey@gmail.com>
+Description:
+ ros-driver-common - The driver_common stack contains classes and tools that are usefu
+Changes:
+ ros-driver-common (1.6.9-2023.01.20.13.30) bookworm; urgency=high
+Checksums-Sha1:
+ 94a3a0ae64cb1cce01c5fad1dc4531edc0006c2f 6667 ros-driver-common_1.6.9-2023.01.20.13.30_amd64.buildinfo
+ 2c79646004ab98f95412d6283ddac501d31e8ffb 2352 ros-driver-common_1.6.9-2023.01.20.13.30_amd64.deb
+Checksums-Sha256:
+ ddb3695bd36f0345d142c3788c95fd033dff85b31b0ced4eefaa9a25b75f4f33 6667 ros-driver-common_1.6.9-2023.01.20.13.30_amd64.buildinfo
+ 0979c0ebc09ceee99766f9f805341b45a6c710fd53e8bbdd661ba28fff254996 2352 ros-driver-common_1.6.9-2023.01.20.13.30_amd64.deb
+Files:
+ b121af4f11b03c0f66b361fd107b744f 6667 misc optional ros-driver-common_1.6.9-2023.01.20.13.30_amd64.buildinfo
+ b64fccc8d5f471bcffa652b8bc3b5f4c 2352 misc optional ros-driver-common_1.6.9-2023.01.20.13.30_amd64.deb

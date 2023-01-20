@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Tue, 10 Jan 2023 00:00:00 -0000
+Source: ros-base-local-planner
+Binary: ros-base-local-planner ros-base-local-planner-dbgsym
+Architecture: amd64
+Version: 1.17.3-2-g85e5f334-2023.01.20.17.06
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Ferguson <mfergs7@gmail.com>
+Changed-By: Michael Ferguson <mfergs7@gmail.com>
+Description:
+ ros-base-local-planner - This package provides implementations of the Trajectory Rollout a
+Changes:
+ ros-base-local-planner (1.17.3-2-g85e5f334-2023.01.20.17.06) bookworm; urgency=high
+ .
+   * [ROS-O] various patches (#1225 <https://github.com/ros-planning/navigation/issues/1225>)
+     * do not specify obsolete c++11 standard
+     this breaks with current versions of log4cxx.
+     * update pluginlib include paths
+     the non-hpp headers have been deprecated since kinetic
+     * use lambdas in favor of boost::bind
+     Using boost's _1 as a global system is deprecated since C++11.
+     The ROS packages in Debian removed the implicit support for the global symbols,
+     so this code fails to compile there without the patch.
+   * Contributors: Michael Görner
+Checksums-Sha1:
+ a6491bc1aaf0559303a0a8ea7b24169540215f09 5663124 ros-base-local-planner-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.06_amd64.deb
+ 1af3e0a768f16bb9728511861818efc6a1da634c 13005 ros-base-local-planner_1.17.3-2-g85e5f334-2023.01.20.17.06_amd64.buildinfo
+ bd56758132cbaae9cf0e8f0997547ef62ad268bf 231344 ros-base-local-planner_1.17.3-2-g85e5f334-2023.01.20.17.06_amd64.deb
+Checksums-Sha256:
+ 6b82d202ecd65443cd69165deac8cd1e6584b9808fd27e0f2d13d3075d134f9d 5663124 ros-base-local-planner-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.06_amd64.deb
+ c8ec4127c81a83f44ba76c44dcdd229d18ac6427b264819e1924fbe8e0b9ade7 13005 ros-base-local-planner_1.17.3-2-g85e5f334-2023.01.20.17.06_amd64.buildinfo
+ 87fab8bfa466ba12d206e4c55aca731e999387f837a6357f3516deae9435bc54 231344 ros-base-local-planner_1.17.3-2-g85e5f334-2023.01.20.17.06_amd64.deb
+Files:
+ 7749c7e6eac227569e2087ab5912e824 5663124 debug optional ros-base-local-planner-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.06_amd64.deb
+ d396ad97a59445913242194c4b602a9f 13005 misc optional ros-base-local-planner_1.17.3-2-g85e5f334-2023.01.20.17.06_amd64.buildinfo
+ 9018232fd56532b2d2dfc6fe6efed84c 231344 misc optional ros-base-local-planner_1.17.3-2-g85e5f334-2023.01.20.17.06_amd64.deb

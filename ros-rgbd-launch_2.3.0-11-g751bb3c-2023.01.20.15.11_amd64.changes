@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 02 Jun 2020 00:00:00 -0000
+Source: ros-rgbd-launch
+Binary: ros-rgbd-launch
+Architecture: amd64
+Version: 2.3.0-11-g751bb3c-2023.01.20.15.11
+Distribution: bookworm
+Urgency: high
+Maintainer: Piyush Khandelwal <piyushk@gmail.com>
+Changed-By: Piyush Khandelwal <piyushk@gmail.com>
+Description:
+ ros-rgbd-launch - Launch files to open an RGBD device and load all nodelets to conv
+Changes:
+ ros-rgbd-launch (2.3.0-11-g751bb3c-2023.01.20.15.11) bookworm; urgency=high
+ .
+   * Noetic support #49 <https://github.com/ros-drivers/rgbd_launch/issues/49>
+   * Contributors: Mike Ferguson, Isaac I.Y. Saito
+Checksums-Sha1:
+ 5c5ddc11cbc11510b5eb1905b85474c031f5c66b 22421 ros-rgbd-launch_2.3.0-11-g751bb3c-2023.01.20.15.11_amd64.buildinfo
+ f480047ada838fd80605a0fe59aa27b878c1aedb 9672 ros-rgbd-launch_2.3.0-11-g751bb3c-2023.01.20.15.11_amd64.deb
+Checksums-Sha256:
+ 10075c1becaedbea374f57f4487bb0eb873ecce73f5f1515aae9c6d5e9f4c6b5 22421 ros-rgbd-launch_2.3.0-11-g751bb3c-2023.01.20.15.11_amd64.buildinfo
+ f9710502746a72fb5149c4865fa3c744571eac8cd2b701180eb04a91690aac8a 9672 ros-rgbd-launch_2.3.0-11-g751bb3c-2023.01.20.15.11_amd64.deb
+Files:
+ 1db8fcc1e4b5351d4b815d08470e326b 22421 misc optional ros-rgbd-launch_2.3.0-11-g751bb3c-2023.01.20.15.11_amd64.buildinfo
+ ab74ba42b5059db28f4a067f01f428c4 9672 misc optional ros-rgbd-launch_2.3.0-11-g751bb3c-2023.01.20.15.11_amd64.deb

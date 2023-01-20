@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Tue, 07 Jun 2022 00:00:00 -0000
+Source: ros-ethercat-grant
+Binary: ros-ethercat-grant ros-ethercat-grant-dbgsym
+Architecture: amd64
+Version: 0.3.2-2023.01.20.13.31
+Distribution: bookworm
+Urgency: high
+Maintainer: Shadow Robot's software team <software@shadowrobot.com>
+Changed-By: Shadow Robot's software team <software@shadowrobot.com>
+Description:
+ ros-ethercat-grant - Makes it possible to run the ros_ethercat_loop without using sudo
+Changes:
+ ros-ethercat-grant (0.3.2-2023.01.20.13.31) bookworm; urgency=high
+ .
+   * Fixing CHANGELOG
+   * Contributors: Fotios
+Checksums-Sha1:
+ 12ed9be6c91dab3774f7c4be67c34f38449aa556 29208 ros-ethercat-grant-dbgsym_0.3.2-2023.01.20.13.31_amd64.deb
+ 97edd958c641ddcb9bdf13795812e0c89e15849f 8982 ros-ethercat-grant_0.3.2-2023.01.20.13.31_amd64.buildinfo
+ 36d434bbaae5cdde6a33fcf17345e159f753f617 8868 ros-ethercat-grant_0.3.2-2023.01.20.13.31_amd64.deb
+Checksums-Sha256:
+ c53fa5d6c188de34883ea8159cbc941adf8ef030c01950298a011c67840d625a 29208 ros-ethercat-grant-dbgsym_0.3.2-2023.01.20.13.31_amd64.deb
+ c92f2b0786a805b332d5cf1a3d74c7b7ec0a9b19de350c6a64ec2dc2b473b0af 8982 ros-ethercat-grant_0.3.2-2023.01.20.13.31_amd64.buildinfo
+ c4ef34825c98f7e153f9b36d9c26b66432848ffe6d585f2834992fb712543d6e 8868 ros-ethercat-grant_0.3.2-2023.01.20.13.31_amd64.deb
+Files:
+ e992640993f01bbd7a36f7b8598c945b 29208 debug optional ros-ethercat-grant-dbgsym_0.3.2-2023.01.20.13.31_amd64.deb
+ 55a51069355643215aefd7c97cbc06f7 8982 misc optional ros-ethercat-grant_0.3.2-2023.01.20.13.31_amd64.buildinfo
+ c5ad1c73317b4419abde0d2df4eedb51 8868 misc optional ros-ethercat-grant_0.3.2-2023.01.20.13.31_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-force-torque-sensor-controller
+Binary: ros-force-torque-sensor-controller ros-force-torque-sensor-controller-dbgsym
+Architecture: amd64
+Version: 0.21.0-2-g8ab7694-2023.01.20.15.02
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-force-torque-sensor-controller - Controller to publish state of force-torque sensors
+Changes:
+ ros-force-torque-sensor-controller (0.21.0-2-g8ab7694-2023.01.20.15.02) bookworm; urgency=high
+Checksums-Sha1:
+ de20d68138612738323380f6cc7e039b7afb2e53 606024 ros-force-torque-sensor-controller-dbgsym_0.21.0-2-g8ab7694-2023.01.20.15.02_amd64.deb
+ acabb24b35667bc8084e03961c106e037a15561a 11125 ros-force-torque-sensor-controller_0.21.0-2-g8ab7694-2023.01.20.15.02_amd64.buildinfo
+ 21eff36206669426146a3bb81d5b08cb4f81a5cb 45788 ros-force-torque-sensor-controller_0.21.0-2-g8ab7694-2023.01.20.15.02_amd64.deb
+Checksums-Sha256:
+ b60822495fce062d7373052eaa3af96b6f148c7e21d0a9ac302cfcd0827f37da 606024 ros-force-torque-sensor-controller-dbgsym_0.21.0-2-g8ab7694-2023.01.20.15.02_amd64.deb
+ fc4ab841175a2d6b4e6b9254d793f645d521f15ee66ef8035c492ff2c0a41943 11125 ros-force-torque-sensor-controller_0.21.0-2-g8ab7694-2023.01.20.15.02_amd64.buildinfo
+ 1ffac222e1e7a3dc3200c031c6fd1880da9c40667b5e386e36c46ac31f5a22f8 45788 ros-force-torque-sensor-controller_0.21.0-2-g8ab7694-2023.01.20.15.02_amd64.deb
+Files:
+ 2da54db95dfd6f7e7ae5e3050393b916 606024 debug optional ros-force-torque-sensor-controller-dbgsym_0.21.0-2-g8ab7694-2023.01.20.15.02_amd64.deb
+ 24f8121496fecc50bbc54b0d2bde813c 11125 misc optional ros-force-torque-sensor-controller_0.21.0-2-g8ab7694-2023.01.20.15.02_amd64.buildinfo
+ 924aea2a54336ac01a86cbaa11478427 45788 misc optional ros-force-torque-sensor-controller_0.21.0-2-g8ab7694-2023.01.20.15.02_amd64.deb

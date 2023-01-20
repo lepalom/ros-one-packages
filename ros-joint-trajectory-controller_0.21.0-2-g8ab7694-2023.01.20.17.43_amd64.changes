@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-joint-trajectory-controller
+Binary: ros-joint-trajectory-controller ros-joint-trajectory-controller-dbgsym
+Architecture: amd64
+Version: 0.21.0-2-g8ab7694-2023.01.20.17.43
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-joint-trajectory-controller - Controller for executing joint-space trajectories on a group of j
+Changes:
+ ros-joint-trajectory-controller (0.21.0-2-g8ab7694-2023.01.20.17.43) bookworm; urgency=high
+ .
+   * std::bind and placeholders instead of boost
+   * Contributors: Lucas Walter
+Checksums-Sha1:
+ 123c0fea974a486c1b31f81944d5f7136b1ee96b 2911420 ros-joint-trajectory-controller-dbgsym_0.21.0-2-g8ab7694-2023.01.20.17.43_amd64.deb
+ 01f9d99a48b4c12d4c852e28ad84885cd8cfb8dc 18346 ros-joint-trajectory-controller_0.21.0-2-g8ab7694-2023.01.20.17.43_amd64.buildinfo
+ bad91775b06be0f9137c17edb9d51f988e0bfb9b 225716 ros-joint-trajectory-controller_0.21.0-2-g8ab7694-2023.01.20.17.43_amd64.deb
+Checksums-Sha256:
+ 7acceec113bf114596988dc2b709facdf88892867dbdb1746954da3c45707130 2911420 ros-joint-trajectory-controller-dbgsym_0.21.0-2-g8ab7694-2023.01.20.17.43_amd64.deb
+ 12259a2f804de40821919c8e08118b26198839e31b16dd5451de8af3bd581b12 18346 ros-joint-trajectory-controller_0.21.0-2-g8ab7694-2023.01.20.17.43_amd64.buildinfo
+ 3bf885e388aef3b9ac5f8afbd47431144cfe263deec6f0942f43e413bb8382ce 225716 ros-joint-trajectory-controller_0.21.0-2-g8ab7694-2023.01.20.17.43_amd64.deb
+Files:
+ 2edae8c504d990f0758f283a5efd79d6 2911420 debug optional ros-joint-trajectory-controller-dbgsym_0.21.0-2-g8ab7694-2023.01.20.17.43_amd64.deb
+ 72c036855c09142c71ca26863697d734 18346 misc optional ros-joint-trajectory-controller_0.21.0-2-g8ab7694-2023.01.20.17.43_amd64.buildinfo
+ bb754765c6ea68476a02cc5384c2ce19 225716 misc optional ros-joint-trajectory-controller_0.21.0-2-g8ab7694-2023.01.20.17.43_amd64.deb

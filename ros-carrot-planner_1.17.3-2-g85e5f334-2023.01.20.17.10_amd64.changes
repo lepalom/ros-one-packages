@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Tue, 10 Jan 2023 00:00:00 -0000
+Source: ros-carrot-planner
+Binary: ros-carrot-planner ros-carrot-planner-dbgsym
+Architecture: amd64
+Version: 1.17.3-2-g85e5f334-2023.01.20.17.10
+Distribution: bookworm
+Urgency: high
+Maintainer: Aaron Hoy <ahoy@fetchrobotics.com>
+Changed-By: Aaron Hoy <ahoy@fetchrobotics.com>
+Description:
+ ros-carrot-planner - This planner attempts to find a legal place to put a carrot for t
+Changes:
+ ros-carrot-planner (1.17.3-2-g85e5f334-2023.01.20.17.10) bookworm; urgency=high
+ .
+   * [ROS-O] various patches (#1225 <https://github.com/ros-planning/navigation/issues/1225>)
+     * do not specify obsolete c++11 standard
+     this breaks with current versions of log4cxx.
+     * update pluginlib include paths
+     the non-hpp headers have been deprecated since kinetic
+     * use lambdas in favor of boost::bind
+     Using boost's _1 as a global system is deprecated since C++11.
+     The ROS packages in Debian removed the implicit support for the global symbols,
+     so this code fails to compile there without the patch.
+   * Contributors: Michael Görner
+Checksums-Sha1:
+ 1bc9d0fb82dfb93a4f06c0faa2408d12d61b763c 628440 ros-carrot-planner-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.10_amd64.deb
+ 7ac041e329e04535b1b8bbbe7b1440c6d17fc7a4 12996 ros-carrot-planner_1.17.3-2-g85e5f334-2023.01.20.17.10_amd64.buildinfo
+ 21f7381ebbb38e155ae66b0f39ed2391d7090a30 37632 ros-carrot-planner_1.17.3-2-g85e5f334-2023.01.20.17.10_amd64.deb
+Checksums-Sha256:
+ 3e8e253cd378559b942f34af0c6363b9f59b28c311ba370197afbeb2dbde9023 628440 ros-carrot-planner-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.10_amd64.deb
+ 3827ff142bf3753a7be611bd67e422f2c246f78e6c01f0e8a808ff301594f7d1 12996 ros-carrot-planner_1.17.3-2-g85e5f334-2023.01.20.17.10_amd64.buildinfo
+ d3808cf89ed1d8e538869232fa9c2e38fd2c6a94e024a53f2ac22c267b9f719e 37632 ros-carrot-planner_1.17.3-2-g85e5f334-2023.01.20.17.10_amd64.deb
+Files:
+ efb0b6354ef6dcbb6344d74e346bd2c8 628440 debug optional ros-carrot-planner-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.10_amd64.deb
+ 720dd6e47e7f095d0ba1129d8945238c 12996 misc optional ros-carrot-planner_1.17.3-2-g85e5f334-2023.01.20.17.10_amd64.buildinfo
+ af84bd3b32e593c9c49c1076521f0a6d 37632 misc optional ros-carrot-planner_1.17.3-2-g85e5f334-2023.01.20.17.10_amd64.deb

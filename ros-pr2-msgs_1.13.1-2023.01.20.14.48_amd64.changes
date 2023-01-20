@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 07 Sep 2022 00:00:00 -0000
+Source: ros-pr2-msgs
+Binary: ros-pr2-msgs
+Architecture: amd64
+Version: 1.13.1-2023.01.20.14.48
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-pr2-msgs - Messages for representing PR2 state, such as battery information
+Changes:
+ ros-pr2-msgs (1.13.1-2023.01.20.14.48) bookworm; urgency=high
+Checksums-Sha1:
+ df75031d0bb795ea9f1bb0953dd73918c5097c28 7387 ros-pr2-msgs_1.13.1-2023.01.20.14.48_amd64.buildinfo
+ c5507d66a47af2f40af44a8f0acb7d6ec56465f5 59152 ros-pr2-msgs_1.13.1-2023.01.20.14.48_amd64.deb
+Checksums-Sha256:
+ 8930ec562e8a6c78db912c2347e8393ae665e16434c0f257e71cee86ce42b476 7387 ros-pr2-msgs_1.13.1-2023.01.20.14.48_amd64.buildinfo
+ 7643ea2d6a5610eef54fe9f32d2adfa00e58ad2534bd8bbf02d4afe07245a324 59152 ros-pr2-msgs_1.13.1-2023.01.20.14.48_amd64.deb
+Files:
+ 95e0a70cce220aad8a6d9f4b23fa4168 7387 misc optional ros-pr2-msgs_1.13.1-2023.01.20.14.48_amd64.buildinfo
+ 9a579ffa510ed6f8d6b22e6b3128eba2 59152 misc optional ros-pr2-msgs_1.13.1-2023.01.20.14.48_amd64.deb

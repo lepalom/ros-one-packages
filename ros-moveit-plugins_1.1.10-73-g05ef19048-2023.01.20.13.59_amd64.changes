@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-plugins
+Binary: ros-moveit-plugins
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.20.13.59
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Görner <me@v4hn.de>
+Changed-By: Michael Görner <me@v4hn.de>
+Description:
+ ros-moveit-plugins - Metapackage for MoveIt plugins.
+Changes:
+ ros-moveit-plugins (1.1.10-73-g05ef19048-2023.01.20.13.59) bookworm; urgency=high
+Checksums-Sha1:
+ 2babc338f26e8b4e97ba338ac8f3a69e25387e76 6732 ros-moveit-plugins_1.1.10-73-g05ef19048-2023.01.20.13.59_amd64.buildinfo
+ 7c7a37470c274a439fd9cda4fbdcafdf995ea007 2932 ros-moveit-plugins_1.1.10-73-g05ef19048-2023.01.20.13.59_amd64.deb
+Checksums-Sha256:
+ a8f6bdd484fd7a6e873bc1cec5518cfa7b74c7140f843bffa013423a9c4a9426 6732 ros-moveit-plugins_1.1.10-73-g05ef19048-2023.01.20.13.59_amd64.buildinfo
+ 6493f199bfe8d69309f826aaf3a94476af7fce93f5d10ed7a23a23916cb32f30 2932 ros-moveit-plugins_1.1.10-73-g05ef19048-2023.01.20.13.59_amd64.deb
+Files:
+ 6f66d3f609a6a8914ba050987738954a 6732 misc optional ros-moveit-plugins_1.1.10-73-g05ef19048-2023.01.20.13.59_amd64.buildinfo
+ 5f8eefc092d71451260e116f1cd5d18d 2932 misc optional ros-moveit-plugins_1.1.10-73-g05ef19048-2023.01.20.13.59_amd64.deb

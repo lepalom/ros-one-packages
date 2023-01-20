@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Tue, 10 Jan 2023 00:00:00 -0000
+Source: ros-navfn
+Binary: ros-navfn ros-navfn-dbgsym
+Architecture: amd64
+Version: 1.17.3-2-g85e5f334-2023.01.20.17.19
+Distribution: bookworm
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-navfn  - navfn provides a fast interpolated navigation function that can b
+Changes:
+ ros-navfn (1.17.3-2-g85e5f334-2023.01.20.17.19) bookworm; urgency=high
+ .
+   * [ROS-O] various patches (#1225 <https://github.com/ros-planning/navigation/issues/1225>)
+     * do not specify obsolete c++11 standard
+     this breaks with current versions of log4cxx.
+     * update pluginlib include paths
+     the non-hpp headers have been deprecated since kinetic
+     * use lambdas in favor of boost::bind
+     Using boost's _1 as a global system is deprecated since C++11.
+     The ROS packages in Debian removed the implicit support for the global symbols,
+     so this code fails to compile there without the patch.
+   * Contributors: Michael Görner
+Checksums-Sha1:
+ 5a40566e763732aebf1c3617b68f99a8923af06b 1594864 ros-navfn-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.19_amd64.deb
+ 49149f2016c379cee322ab6e20f5929317a55f85 12785 ros-navfn_1.17.3-2-g85e5f334-2023.01.20.17.19_amd64.buildinfo
+ da207f2a1ac90b93a9129c5cd5108d88d4ea0193 114576 ros-navfn_1.17.3-2-g85e5f334-2023.01.20.17.19_amd64.deb
+Checksums-Sha256:
+ 7f0e2ae0a5e30b5de774bb613d3cb4df2a00388f92129fe12787e82730b9332e 1594864 ros-navfn-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.19_amd64.deb
+ 42ade333628b83f3e0c1045864f3054d95c8d262f3bc7758273d3b92c18b7a3d 12785 ros-navfn_1.17.3-2-g85e5f334-2023.01.20.17.19_amd64.buildinfo
+ ed00578475b3d1d8c334fd3bdd02bbd9ccd542aa37fcd33c466d1dd030e48e1e 114576 ros-navfn_1.17.3-2-g85e5f334-2023.01.20.17.19_amd64.deb
+Files:
+ e0a0f75791c2a7a37232fd306cd26c1a 1594864 debug optional ros-navfn-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.19_amd64.deb
+ 62bb10c9cb9ea118eff1ed09b3c64320 12785 misc optional ros-navfn_1.17.3-2-g85e5f334-2023.01.20.17.19_amd64.buildinfo
+ 007318d781a30f26cd63e2d00756295d 114576 misc optional ros-navfn_1.17.3-2-g85e5f334-2023.01.20.17.19_amd64.deb

@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 08 May 2021 00:00:00 -0000
+Source: ros-pr2-head-action
+Binary: ros-pr2-head-action ros-pr2-head-action-dbgsym
+Architecture: amd64
+Version: 1.10.18-3-g8e8dfa0-2023.01.20.14.38
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-pr2-head-action - The PR2 head action is a node that provides an action interface f
+Changes:
+ ros-pr2-head-action (1.10.18-3-g8e8dfa0-2023.01.20.14.38) bookworm; urgency=high
+ .
+   * Fix for noetic (#401 <https://github.com/PR2/pr2_controllers/issues/401>)
+ .
+       * install liborocos for noetic
+       * conver to package 3
+ .
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ 13ab2a4c1ff515e15b8575f0d97e27a344436021 1237360 ros-pr2-head-action-dbgsym_1.10.18-3-g8e8dfa0-2023.01.20.14.38_amd64.deb
+ 87d892ffc37896bd4472d2d05fa6c27566c57286 14422 ros-pr2-head-action_1.10.18-3-g8e8dfa0-2023.01.20.14.38_amd64.buildinfo
+ df850bdb4a6720740194d24b3f31812b83204cc7 94024 ros-pr2-head-action_1.10.18-3-g8e8dfa0-2023.01.20.14.38_amd64.deb
+Checksums-Sha256:
+ 78aacb2a4dcc36906c74b931ced79ab38f226c5b80c081f1fdf455f48d92b692 1237360 ros-pr2-head-action-dbgsym_1.10.18-3-g8e8dfa0-2023.01.20.14.38_amd64.deb
+ 7bd597477e7609845391ec9a15d4e486ca4ac7827f2e42fec1043798ab51014f 14422 ros-pr2-head-action_1.10.18-3-g8e8dfa0-2023.01.20.14.38_amd64.buildinfo
+ f3fd3d835a529424c48191fd6b4a1e79b91b1dfb7c25dd467cfff955cfb68f3f 94024 ros-pr2-head-action_1.10.18-3-g8e8dfa0-2023.01.20.14.38_amd64.deb
+Files:
+ 58da6bce1a867e420312b4daf2fcc42b 1237360 debug optional ros-pr2-head-action-dbgsym_1.10.18-3-g8e8dfa0-2023.01.20.14.38_amd64.deb
+ 097c63de76579d393d923bf1ddc81658 14422 misc optional ros-pr2-head-action_1.10.18-3-g8e8dfa0-2023.01.20.14.38_amd64.buildinfo
+ 6d99e6064e7b25b6e125d0dcf9c05013 94024 misc optional ros-pr2-head-action_1.10.18-3-g8e8dfa0-2023.01.20.14.38_amd64.deb

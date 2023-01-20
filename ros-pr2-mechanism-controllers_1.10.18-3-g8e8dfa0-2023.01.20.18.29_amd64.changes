@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sat, 08 May 2021 00:00:00 -0000
+Source: ros-pr2-mechanism-controllers
+Binary: ros-pr2-mechanism-controllers ros-pr2-mechanism-controllers-dbgsym
+Architecture: amd64
+Version: 1.10.18-3-g8e8dfa0-2023.01.20.18.29
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-pr2-mechanism-controllers - The pr2_mechanism_controllers package contains realtime controlle
+Changes:
+ ros-pr2-mechanism-controllers (1.10.18-3-g8e8dfa0-2023.01.20.18.29) bookworm; urgency=high
+ .
+   * 2to3 -w -f print . (#401 <https://github.com/PR2/pr2_controllers/issues/401>)
+   * Contributors: Kei Okada
+Checksums-Sha1:
+ b957894aff80d16442eb86c2fa5c902ef726176d 8886072 ros-pr2-mechanism-controllers-dbgsym_1.10.18-3-g8e8dfa0-2023.01.20.18.29_amd64.deb
+ a5b05b8a26c070e6b3d69a7e458d8a97294b3871 16800 ros-pr2-mechanism-controllers_1.10.18-3-g8e8dfa0-2023.01.20.18.29_amd64.buildinfo
+ 39dde1c515da9508130f61eb7e5181261c04ad3e 340708 ros-pr2-mechanism-controllers_1.10.18-3-g8e8dfa0-2023.01.20.18.29_amd64.deb
+Checksums-Sha256:
+ 20c907b448ebfc0a65c96ceb5e661bdd73dc807fbdbff9f8f7358bf83f7b8244 8886072 ros-pr2-mechanism-controllers-dbgsym_1.10.18-3-g8e8dfa0-2023.01.20.18.29_amd64.deb
+ e13ff93ad9f516122467c967ba1673e43297909bfe67aad07f23c829205eb76f 16800 ros-pr2-mechanism-controllers_1.10.18-3-g8e8dfa0-2023.01.20.18.29_amd64.buildinfo
+ e1df15ad47f5ed235a503e3589a7abfe6b76524391cae1cabf027bdd4f4cd35e 340708 ros-pr2-mechanism-controllers_1.10.18-3-g8e8dfa0-2023.01.20.18.29_amd64.deb
+Files:
+ 724bfd0810cc39452afc530e35ee25e9 8886072 debug optional ros-pr2-mechanism-controllers-dbgsym_1.10.18-3-g8e8dfa0-2023.01.20.18.29_amd64.deb
+ 33b5dbbf5c2022df40c29c66f938200d 16800 misc optional ros-pr2-mechanism-controllers_1.10.18-3-g8e8dfa0-2023.01.20.18.29_amd64.buildinfo
+ a54c86941811ff6f0b25918bca5f579d 340708 misc optional ros-pr2-mechanism-controllers_1.10.18-3-g8e8dfa0-2023.01.20.18.29_amd64.deb

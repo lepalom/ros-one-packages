@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Tue, 10 Jan 2023 00:00:00 -0000
+Source: ros-rotate-recovery
+Binary: ros-rotate-recovery ros-rotate-recovery-dbgsym
+Architecture: amd64
+Version: 1.17.3-2-g85e5f334-2023.01.20.17.24
+Distribution: bookworm
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-rotate-recovery - This package provides a recovery behavior for the navigation stac
+Changes:
+ ros-rotate-recovery (1.17.3-2-g85e5f334-2023.01.20.17.24) bookworm; urgency=high
+ .
+   * [ROS-O] various patches (#1225 <https://github.com/ros-planning/navigation/issues/1225>)
+     * do not specify obsolete c++11 standard
+     this breaks with current versions of log4cxx.
+     * update pluginlib include paths
+     the non-hpp headers have been deprecated since kinetic
+     * use lambdas in favor of boost::bind
+     Using boost's _1 as a global system is deprecated since C++11.
+     The ROS packages in Debian removed the implicit support for the global symbols,
+     so this code fails to compile there without the patch.
+   * Contributors: Michael Görner
+Checksums-Sha1:
+ 58d1a26932d26fe32e1ae6b0d45dec33dba96eb2 662680 ros-rotate-recovery-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.24_amd64.deb
+ 160556717a81ee00b2e58d33066874db3fd9743a 13037 ros-rotate-recovery_1.17.3-2-g85e5f334-2023.01.20.17.24_amd64.buildinfo
+ f90b62150f71b58abffb842df353206e16ffbf06 41184 ros-rotate-recovery_1.17.3-2-g85e5f334-2023.01.20.17.24_amd64.deb
+Checksums-Sha256:
+ e92fa36d80e2ced0cc71252f59dcc0b6a2d4cc5c64e5597165d4fc0fd3212681 662680 ros-rotate-recovery-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.24_amd64.deb
+ 04f319fa7659cc7c78ccefee129f20a7e2dcf5f65c0b77f7728bba3562c5cb3d 13037 ros-rotate-recovery_1.17.3-2-g85e5f334-2023.01.20.17.24_amd64.buildinfo
+ 4e34c38c70d4b4b7d53336bc0d9f45b4adc1871fecc0907e411f6c13cf7a8866 41184 ros-rotate-recovery_1.17.3-2-g85e5f334-2023.01.20.17.24_amd64.deb
+Files:
+ 405cc434bab1cc95d136176119662e9f 662680 debug optional ros-rotate-recovery-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.24_amd64.deb
+ dbc444a65a8caec5b326ed590206d67a 13037 misc optional ros-rotate-recovery_1.17.3-2-g85e5f334-2023.01.20.17.24_amd64.buildinfo
+ 37cd0eab7653759848df65a1ce2736d2 41184 misc optional ros-rotate-recovery_1.17.3-2-g85e5f334-2023.01.20.17.24_amd64.deb

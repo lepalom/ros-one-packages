@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 22 Jun 2022 00:00:00 -0000
+Source: ros-pr2-mechanism-model
+Binary: ros-pr2-mechanism-model ros-pr2-mechanism-model-dbgsym
+Architecture: amd64
+Version: 1.8.21-4-g6b1a949-2023.01.20.14.42
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-pr2-mechanism-model - This package contains the robot model that is used by the realtim
+Changes:
+ ros-pr2-mechanism-model (1.8.21-4-g6b1a949-2023.01.20.14.42) bookworm; urgency=high
+ .
+   * set catkin_add_gtest within CATKIN_ENABLE_TESTING (#346 <https://github.com/pr2/pr2_mechanism/issues/346>)
+     fix with CATKIN_ENABLE_TESTING=OFF
+   * Parse old & new transmission style (#345 <https://github.com/pr2/pr2_mechanism/issues/345>)
+     The transmission style changed in ros_control, to make them compatible
+     we adjusted them in the pr2_description
+     This came up when we integrated the shadow-hand- and the PR2-model
+   * Contributors: Kei Okada, Michael Görner
+Checksums-Sha1:
+ 2695d5d28234f648aabc2f22103520176ca5e30c 3439496 ros-pr2-mechanism-model-dbgsym_1.8.21-4-g6b1a949-2023.01.20.14.42_amd64.deb
+ 1d7afd3d599ee51f7ee7945d60f16d42a072d11e 11654 ros-pr2-mechanism-model_1.8.21-4-g6b1a949-2023.01.20.14.42_amd64.buildinfo
+ 8da8bc2b1129999fa2015bb7ee6e7bac0ef9283c 157480 ros-pr2-mechanism-model_1.8.21-4-g6b1a949-2023.01.20.14.42_amd64.deb
+Checksums-Sha256:
+ 14b1c5c4a9cce99496ed325e58890c8ef482b629375972111fc1e99aa2e39394 3439496 ros-pr2-mechanism-model-dbgsym_1.8.21-4-g6b1a949-2023.01.20.14.42_amd64.deb
+ 2993a34e0a8148e9aeb08c490f26bebdad0f09716b280ba096754ab83350a28f 11654 ros-pr2-mechanism-model_1.8.21-4-g6b1a949-2023.01.20.14.42_amd64.buildinfo
+ 1ad85d464e8ec06f53c18d093788fa17965220e31b65b33fb4738e55031ed865 157480 ros-pr2-mechanism-model_1.8.21-4-g6b1a949-2023.01.20.14.42_amd64.deb
+Files:
+ f12643b63c50e2c0b959f6bb0873f316 3439496 debug optional ros-pr2-mechanism-model-dbgsym_1.8.21-4-g6b1a949-2023.01.20.14.42_amd64.deb
+ 9654ea6c565abc5a36e98f04b7b31738 11654 misc optional ros-pr2-mechanism-model_1.8.21-4-g6b1a949-2023.01.20.14.42_amd64.buildinfo
+ e1fd04b1a7619639bb45c9df3c8b9234 157480 misc optional ros-pr2-mechanism-model_1.8.21-4-g6b1a949-2023.01.20.14.42_amd64.deb

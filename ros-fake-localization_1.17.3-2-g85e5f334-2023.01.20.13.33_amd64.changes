@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Tue, 10 Jan 2023 00:00:00 -0000
+Source: ros-fake-localization
+Binary: ros-fake-localization ros-fake-localization-dbgsym
+Architecture: amd64
+Version: 1.17.3-2-g85e5f334-2023.01.20.13.33
+Distribution: bookworm
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-fake-localization - A ROS node that simply forwards odometry information.
+Changes:
+ ros-fake-localization (1.17.3-2-g85e5f334-2023.01.20.13.33) bookworm; urgency=high
+ .
+   * [ROS-O] various patches (#1225 <https://github.com/ros-planning/navigation/issues/1225>)
+     * do not specify obsolete c++11 standard
+     this breaks with current versions of log4cxx.
+     * update pluginlib include paths
+     the non-hpp headers have been deprecated since kinetic
+     * use lambdas in favor of boost::bind
+     Using boost's _1 as a global system is deprecated since C++11.
+     The ROS packages in Debian removed the implicit support for the global symbols,
+     so this code fails to compile there without the patch.
+   * Contributors: Michael Görner
+Checksums-Sha1:
+ f7d09a513771482a47cb54b7a4563a69a644ca7d 1358456 ros-fake-localization-dbgsym_1.17.3-2-g85e5f334-2023.01.20.13.33_amd64.deb
+ 691c552a2f3ee1d998f1d3ab3b0cd7b12a7d24cd 10960 ros-fake-localization_1.17.3-2-g85e5f334-2023.01.20.13.33_amd64.buildinfo
+ 772d251625ea7d39b83dc82b1071489fd34478b6 98456 ros-fake-localization_1.17.3-2-g85e5f334-2023.01.20.13.33_amd64.deb
+Checksums-Sha256:
+ cb0f90d1adbd6ddea3c14e8718a92bdba91a7cf09f7aac81281686a50f68104c 1358456 ros-fake-localization-dbgsym_1.17.3-2-g85e5f334-2023.01.20.13.33_amd64.deb
+ c029e5bbc83910f82443effe8f6a908f1fc8dc2fc159dbb6a2e93ad0a23f9e9d 10960 ros-fake-localization_1.17.3-2-g85e5f334-2023.01.20.13.33_amd64.buildinfo
+ 2c6314aa0f59ea972eba10f6204775276cde2526575822d89ea67875b4a21535 98456 ros-fake-localization_1.17.3-2-g85e5f334-2023.01.20.13.33_amd64.deb
+Files:
+ e58de8a5c1ee7e0cb16ab33979d86d9e 1358456 debug optional ros-fake-localization-dbgsym_1.17.3-2-g85e5f334-2023.01.20.13.33_amd64.deb
+ b13ef448c24e524a8fba8eddf5ccb34e 10960 misc optional ros-fake-localization_1.17.3-2-g85e5f334-2023.01.20.13.33_amd64.buildinfo
+ 000d653241ae20cefa61b75b12d1d4a7 98456 misc optional ros-fake-localization_1.17.3-2-g85e5f334-2023.01.20.13.33_amd64.deb

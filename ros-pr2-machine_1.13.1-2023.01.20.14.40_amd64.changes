@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 07 Sep 2022 00:00:00 -0000
+Source: ros-pr2-machine
+Binary: ros-pr2-machine
+Architecture: amd64
+Version: 1.13.1-2023.01.20.14.40
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-pr2-machine - This package contains the xxx.machine files that describe the dif
+Changes:
+ ros-pr2-machine (1.13.1-2023.01.20.14.40) bookworm; urgency=high
+Checksums-Sha1:
+ bd6c52c911667a7d2522b6402941d4f0450ed44b 6661 ros-pr2-machine_1.13.1-2023.01.20.14.40_amd64.buildinfo
+ a01160f1a239bf9a3b24cb4984980c1280a8464b 5368 ros-pr2-machine_1.13.1-2023.01.20.14.40_amd64.deb
+Checksums-Sha256:
+ 4a3ac8fc2736f7cc584781831a47738f218d4d15f06cb08f4c1cf9606c780fd4 6661 ros-pr2-machine_1.13.1-2023.01.20.14.40_amd64.buildinfo
+ 82b10c146ec907461b6a42ee66c57b2326293a6d471ed70dd65d1068baa3b165 5368 ros-pr2-machine_1.13.1-2023.01.20.14.40_amd64.deb
+Files:
+ bb93523a1c843163c2d4c389f15dac2a 6661 misc optional ros-pr2-machine_1.13.1-2023.01.20.14.40_amd64.buildinfo
+ c1e8e823b2cc33b8ae8a86be92d94a02 5368 misc optional ros-pr2-machine_1.13.1-2023.01.20.14.40_amd64.deb

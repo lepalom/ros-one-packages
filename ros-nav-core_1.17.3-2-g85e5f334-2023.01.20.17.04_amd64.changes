@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 10 Jan 2023 00:00:00 -0000
+Source: ros-nav-core
+Binary: ros-nav-core
+Architecture: amd64
+Version: 1.17.3-2-g85e5f334-2023.01.20.17.04
+Distribution: bookworm
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-nav-core - This package provides common interfaces for navigation specific r
+Changes:
+ ros-nav-core (1.17.3-2-g85e5f334-2023.01.20.17.04) bookworm; urgency=high
+Checksums-Sha1:
+ 1995593ceaf87c579c14ee20430548582add5d34 12304 ros-nav-core_1.17.3-2-g85e5f334-2023.01.20.17.04_amd64.buildinfo
+ e746168dea1cc5034c2f23e2a12be8ef24137dc7 8752 ros-nav-core_1.17.3-2-g85e5f334-2023.01.20.17.04_amd64.deb
+Checksums-Sha256:
+ 01fcd5a7ab0b065250de9abc092f262091407fdfcb4fcf008f5e7bdd965c011b 12304 ros-nav-core_1.17.3-2-g85e5f334-2023.01.20.17.04_amd64.buildinfo
+ 47df2a305cc5621fe5c93bc2f37391b0a21bb350b77a930a187f20eb62306ddf 8752 ros-nav-core_1.17.3-2-g85e5f334-2023.01.20.17.04_amd64.deb
+Files:
+ 15ecffc1d4e34a244debdb7cc8208e53 12304 misc optional ros-nav-core_1.17.3-2-g85e5f334-2023.01.20.17.04_amd64.buildinfo
+ 6ef5bf27a48ebd747f120c63f6178c12 8752 misc optional ros-nav-core_1.17.3-2-g85e5f334-2023.01.20.17.04_amd64.deb

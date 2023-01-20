@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Tue, 10 Jan 2023 00:00:00 -0000
+Source: ros-map-server
+Binary: ros-map-server ros-map-server-dbgsym
+Architecture: amd64
+Version: 1.17.3-2-g85e5f334-2023.01.20.13.53
+Distribution: bookworm
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-map-server - map_server provides the map_server ROS Node, which offers map dat
+Changes:
+ ros-map-server (1.17.3-2-g85e5f334-2023.01.20.13.53) bookworm; urgency=high
+ .
+   * [ROS-O] various patches (#1225 <https://github.com/ros-planning/navigation/issues/1225>)
+     * do not specify obsolete c++11 standard
+     this breaks with current versions of log4cxx.
+     * update pluginlib include paths
+     the non-hpp headers have been deprecated since kinetic
+     * use lambdas in favor of boost::bind
+     Using boost's _1 as a global system is deprecated since C++11.
+     The ROS packages in Debian removed the implicit support for the global symbols,
+     so this code fails to compile there without the patch.
+   * Contributors: Michael Görner
+Checksums-Sha1:
+ 60023eeba4b81503ddf325c16d42bdd218bd9ce8 986560 ros-map-server-dbgsym_1.17.3-2-g85e5f334-2023.01.20.13.53_amd64.deb
+ 9b197d9d32e2a4de43bf761e5f9895978bad68ec 14216 ros-map-server_1.17.3-2-g85e5f334-2023.01.20.13.53_amd64.buildinfo
+ 668f8530720ca1d260ecbf1469975a62dfb94379 75256 ros-map-server_1.17.3-2-g85e5f334-2023.01.20.13.53_amd64.deb
+Checksums-Sha256:
+ dc8c4f52db93748cb917bc6fba720cce56c7dc2372d4f23808d125b5d8a91b81 986560 ros-map-server-dbgsym_1.17.3-2-g85e5f334-2023.01.20.13.53_amd64.deb
+ de9db967f6ed4df1dcc07242fe0df498a76e8a9955abd04cedbb630bac0dedda 14216 ros-map-server_1.17.3-2-g85e5f334-2023.01.20.13.53_amd64.buildinfo
+ f931df57b032c0ed47c0f7453bbeccb997096d28bbff45b9b7ad4cd17afd27a8 75256 ros-map-server_1.17.3-2-g85e5f334-2023.01.20.13.53_amd64.deb
+Files:
+ 8e80168975136bab890cc9e8416a1fb0 986560 debug optional ros-map-server-dbgsym_1.17.3-2-g85e5f334-2023.01.20.13.53_amd64.deb
+ 561422847e4f8a81c939512d93798f52 14216 misc optional ros-map-server_1.17.3-2-g85e5f334-2023.01.20.13.53_amd64.buildinfo
+ ab299156055278c3322068e2b35ec0b8 75256 misc optional ros-map-server_1.17.3-2-g85e5f334-2023.01.20.13.53_amd64.deb

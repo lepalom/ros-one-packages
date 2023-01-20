@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-transmission-interface
+Binary: ros-transmission-interface ros-transmission-interface-dbgsym
+Architecture: amd64
+Version: 0.19.6-2023.01.20.16.49
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-transmission-interface - Transmission Interface.
+Changes:
+ ros-transmission-interface (0.19.6-2023.01.20.16.49) bookworm; urgency=high
+Checksums-Sha1:
+ 2715bcff3bf5c2ea47c5c3be9562d19c06d54f91 6047536 ros-transmission-interface-dbgsym_0.19.6-2023.01.20.16.49_amd64.deb
+ 72f08ede34820de61851c4e0ff90be7b123cb99f 10372 ros-transmission-interface_0.19.6-2023.01.20.16.49_amd64.buildinfo
+ ac4d22a498d8d327e010f56f85186e06b4ac776b 242444 ros-transmission-interface_0.19.6-2023.01.20.16.49_amd64.deb
+Checksums-Sha256:
+ bd8c91d0b8ddd0749cac20d2ed16f1a05b4f5642df7925571fa70b4a06e635cb 6047536 ros-transmission-interface-dbgsym_0.19.6-2023.01.20.16.49_amd64.deb
+ d72e1fd5a9787fa97daf23e3b5cbc25ee66198c3afe662c250bcf9b411f6ace9 10372 ros-transmission-interface_0.19.6-2023.01.20.16.49_amd64.buildinfo
+ 85bb232874ac81a8065510a5ca7e01ee5d68ad064dfdbd4f055ee3b5fe80759c 242444 ros-transmission-interface_0.19.6-2023.01.20.16.49_amd64.deb
+Files:
+ 98b2ee0a91fe6526c9619389fc2c9ed1 6047536 debug optional ros-transmission-interface-dbgsym_0.19.6-2023.01.20.16.49_amd64.deb
+ 1dc3f714d878941f8195d12cfd1e3f4c 10372 misc optional ros-transmission-interface_0.19.6-2023.01.20.16.49_amd64.buildinfo
+ c007c97c5aa965702161708610a6d9af 242444 misc optional ros-transmission-interface_0.19.6-2023.01.20.16.49_amd64.deb

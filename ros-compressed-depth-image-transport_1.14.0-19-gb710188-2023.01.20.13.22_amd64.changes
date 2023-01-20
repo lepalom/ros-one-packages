@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 14 May 2020 00:00:00 -0000
+Source: ros-compressed-depth-image-transport
+Binary: ros-compressed-depth-image-transport ros-compressed-depth-image-transport-dbgsym
+Architecture: amd64
+Version: 1.14.0-19-gb710188-2023.01.20.13.22
+Distribution: bookworm
+Urgency: high
+Maintainer: David Gossow <dgossow@willowgarage.com>
+Changed-By: David Gossow <dgossow@willowgarage.com>
+Description:
+ ros-compressed-depth-image-transport - Compressed_depth_image_transport provides a plugin to image_trans
+Changes:
+ ros-compressed-depth-image-transport (1.14.0-19-gb710188-2023.01.20.13.22) bookworm; urgency=high
+ .
+   * Bump CMake version to avoid CMP0048 warning (#53 <https://github.com/ros-perception/image_transport_plugins/issues/53>)
+   * Add depth compression by RVL #42 <https://github.com/ros-perception/image_transport_plugins/issues/42>
+   * Fix binary install locations for Windows build #34 <https://github.com/ros-perception/image_transport_plugins/issues/34>
+   * Add legacy constants when using opencv4 #32 <https://github.com/ros-perception/image_transport_plugins/issues/32>
+   * Contributors: Alejandro Hernández Cordero, David Gossow, Hans Gaiser, Sean Yen, Shuntaro Yamazaki
+Checksums-Sha1:
+ b25677f5fefdf19f8036224d1ec431e5a83c79c0 1792532 ros-compressed-depth-image-transport-dbgsym_1.14.0-19-gb710188-2023.01.20.13.22_amd64.deb
+ 6e78fcbbfcbcfec60e4e46aec458d38e6968b19d 21515 ros-compressed-depth-image-transport_1.14.0-19-gb710188-2023.01.20.13.22_amd64.buildinfo
+ 9db485612ca957d55411bdfcec487648b5d50972 89164 ros-compressed-depth-image-transport_1.14.0-19-gb710188-2023.01.20.13.22_amd64.deb
+Checksums-Sha256:
+ 8410b39e7effc7ee0c02b449fed3e433cc6cd973ae0a9846f8be31157a6b7a9e 1792532 ros-compressed-depth-image-transport-dbgsym_1.14.0-19-gb710188-2023.01.20.13.22_amd64.deb
+ 46b6900333aff71cb81a1e047d1410370a65ec667428a75be5b7480b2e390dc1 21515 ros-compressed-depth-image-transport_1.14.0-19-gb710188-2023.01.20.13.22_amd64.buildinfo
+ 977057fb9fa653746ef79dffc6133935260e77f473068dcfae41ebee5ea53d41 89164 ros-compressed-depth-image-transport_1.14.0-19-gb710188-2023.01.20.13.22_amd64.deb
+Files:
+ 6e28ee57f92256e82bd00e60e3574fe9 1792532 debug optional ros-compressed-depth-image-transport-dbgsym_1.14.0-19-gb710188-2023.01.20.13.22_amd64.deb
+ e4afa7f91b31658af8dae997e2e980c4 21515 misc optional ros-compressed-depth-image-transport_1.14.0-19-gb710188-2023.01.20.13.22_amd64.buildinfo
+ 39f9a70216000cb7d092e7b6ffa69f86 89164 misc optional ros-compressed-depth-image-transport_1.14.0-19-gb710188-2023.01.20.13.22_amd64.deb

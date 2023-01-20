@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-ros
+Binary: ros-moveit-ros
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.20.14.08
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Ferguson <mferguson@fetchrobotics.com>
+Changed-By: Michael Ferguson <mferguson@fetchrobotics.com>
+Description:
+ ros-moveit-ros - Components of MoveIt that use ROS
+Changes:
+ ros-moveit-ros (1.1.10-73-g05ef19048-2023.01.20.14.08) bookworm; urgency=high
+Checksums-Sha1:
+ 3fdf3d8bac27a7a9e80784469eabfd03f4689935 6712 ros-moveit-ros_1.1.10-73-g05ef19048-2023.01.20.14.08_amd64.buildinfo
+ 18a78b2f8716c20f0a6094b68b054f391fc31bc5 3324 ros-moveit-ros_1.1.10-73-g05ef19048-2023.01.20.14.08_amd64.deb
+Checksums-Sha256:
+ 5d87d5601d10e4afa8cc79c3b53c88fadb38e626006195a14d00311e8b507509 6712 ros-moveit-ros_1.1.10-73-g05ef19048-2023.01.20.14.08_amd64.buildinfo
+ f4dfc0a1c54cea606919b3217838fc731840358df8ff84306ceaf13ecb2eecda 3324 ros-moveit-ros_1.1.10-73-g05ef19048-2023.01.20.14.08_amd64.deb
+Files:
+ d63d49d6bcaa2df571e97cd58c2730f7 6712 misc optional ros-moveit-ros_1.1.10-73-g05ef19048-2023.01.20.14.08_amd64.buildinfo
+ 03848db9348724d2f2139d1377466ff1 3324 misc optional ros-moveit-ros_1.1.10-73-g05ef19048-2023.01.20.14.08_amd64.deb

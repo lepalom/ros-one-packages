@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 07 Jun 2021 00:00:00 -0000
+Source: ros-joy
+Binary: ros-joy ros-joy-dbgsym
+Architecture: amd64
+Version: 0-2023.01.20.15.24
+Distribution: bookworm
+Urgency: high
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Changed-By: Jonathan Bohren <jbo@jhu.edu>
+Description:
+ ros-joy    - ROS driver for a generic Linux joystick.
+Changes:
+ ros-joy (0-2023.01.20.15.24) bookworm; urgency=high
+Checksums-Sha1:
+ d3534f21248503b447ca9c9040b9fa703f3a031b 721956 ros-joy-dbgsym_0-2023.01.20.15.24_amd64.deb
+ 65b158d2ed49a369aec9b43e9420c47f7a29d7b5 12999 ros-joy_0-2023.01.20.15.24_amd64.buildinfo
+ f0542e52ec4fa5ba1842f0c70d7e0e95dda11cbe 59164 ros-joy_0-2023.01.20.15.24_amd64.deb
+Checksums-Sha256:
+ cba530ae6b5e4e674be90e899af8f1127638f9f30fac89dad2199358633ecabf 721956 ros-joy-dbgsym_0-2023.01.20.15.24_amd64.deb
+ 444e32315c5521c2bafa687fd29071086a36a0e547e227a45bef710b2eb79d80 12999 ros-joy_0-2023.01.20.15.24_amd64.buildinfo
+ 8400418d4eeb18f444d25042ab8e6b5c92e950fcb2101239c258a66a3e2760c4 59164 ros-joy_0-2023.01.20.15.24_amd64.deb
+Files:
+ a2974326d0b16447c33fb10a31ad5e61 721956 debug optional ros-joy-dbgsym_0-2023.01.20.15.24_amd64.deb
+ 72171ce2b9faaf73ef8473780d798ece 12999 misc optional ros-joy_0-2023.01.20.15.24_amd64.buildinfo
+ 58e0bc3af7c6fea0f726d6420c6d70e8 59164 misc optional ros-joy_0-2023.01.20.15.24_amd64.deb

@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 22 Jun 2022 00:00:00 -0000
+Source: ros-pr2-hardware-interface
+Binary: ros-pr2-hardware-interface
+Architecture: amd64
+Version: 1.8.21-4-g6b1a949-2023.01.20.14.37
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-pr2-hardware-interface - This package contains the C++ interfaces to the PR2 hardware comp
+Changes:
+ ros-pr2-hardware-interface (1.8.21-4-g6b1a949-2023.01.20.14.37) bookworm; urgency=high
+Checksums-Sha1:
+ bd24113efd934a5f54e69d44d7b857e7409cc0ea 8965 ros-pr2-hardware-interface_1.8.21-4-g6b1a949-2023.01.20.14.37_amd64.buildinfo
+ 421b35165c8036c807e89c71c292289ad459c44d 10896 ros-pr2-hardware-interface_1.8.21-4-g6b1a949-2023.01.20.14.37_amd64.deb
+Checksums-Sha256:
+ 890d9ec564c6843cc1b2a313547265d600772d0e6f864427be192d69ff4f2b90 8965 ros-pr2-hardware-interface_1.8.21-4-g6b1a949-2023.01.20.14.37_amd64.buildinfo
+ 542ed94a01f057afa5dd5cdbd3abe8ffcf0e1af03cc05dcf939ff81cefc8b4dd 10896 ros-pr2-hardware-interface_1.8.21-4-g6b1a949-2023.01.20.14.37_amd64.deb
+Files:
+ 34c9fa365a8be2e0dd3ee529fd2bac56 8965 misc optional ros-pr2-hardware-interface_1.8.21-4-g6b1a949-2023.01.20.14.37_amd64.buildinfo
+ 4fcc829fb533e8622227f309a903ba4a 10896 misc optional ros-pr2-hardware-interface_1.8.21-4-g6b1a949-2023.01.20.14.37_amd64.deb

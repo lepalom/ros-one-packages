@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-velocity-controllers
+Binary: ros-velocity-controllers ros-velocity-controllers-dbgsym
+Architecture: amd64
+Version: 0.21.0-2-g8ab7694-2023.01.20.16.57
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-velocity-controllers - velocity_controllers
+Changes:
+ ros-velocity-controllers (0.21.0-2-g8ab7694-2023.01.20.16.57) bookworm; urgency=high
+Checksums-Sha1:
+ 31aa176f729697376d7410754c94291b64426a5e 1777468 ros-velocity-controllers-dbgsym_0.21.0-2-g8ab7694-2023.01.20.16.57_amd64.deb
+ 31fb01284368a16397d7ec7dc4b4f23c4b9f1651 12036 ros-velocity-controllers_0.21.0-2-g8ab7694-2023.01.20.16.57_amd64.buildinfo
+ d99c960ea77ff15e616519ac284625e90e8bdf19 72876 ros-velocity-controllers_0.21.0-2-g8ab7694-2023.01.20.16.57_amd64.deb
+Checksums-Sha256:
+ 699d63cf9a16a63335c15e004f8b63d2d3fac4cd7be7cd5c02d91d97b8420065 1777468 ros-velocity-controllers-dbgsym_0.21.0-2-g8ab7694-2023.01.20.16.57_amd64.deb
+ e46df987caa8b648a68ba356bc579bbb9c209ff9d7668ba1bbdc63d375dce131 12036 ros-velocity-controllers_0.21.0-2-g8ab7694-2023.01.20.16.57_amd64.buildinfo
+ 8025b22e85edfd404ee911fb69c217b6c6f21817f5cdde7eea92d917c03eb7a1 72876 ros-velocity-controllers_0.21.0-2-g8ab7694-2023.01.20.16.57_amd64.deb
+Files:
+ 3aa5d4015bcb0bda25b7bc56e860530f 1777468 debug optional ros-velocity-controllers-dbgsym_0.21.0-2-g8ab7694-2023.01.20.16.57_amd64.deb
+ fb42be0e1024cb86f66eb567d62a1c0d 12036 misc optional ros-velocity-controllers_0.21.0-2-g8ab7694-2023.01.20.16.57_amd64.buildinfo
+ 633e1744cf8c7965bdc9e9f999bc06dc 72876 misc optional ros-velocity-controllers_0.21.0-2-g8ab7694-2023.01.20.16.57_amd64.deb

@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Sun, 23 May 2021 00:00:00 -0000
+Source: ros-teleop-tools-msgs
+Binary: ros-teleop-tools-msgs
+Architecture: amd64
+Version: 0.4.1-2023.01.20.16.42
+Distribution: bookworm
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-teleop-tools-msgs - The teleop_tools_msgs package
+Changes:
+ ros-teleop-tools-msgs (0.4.1-2023.01.20.16.42) bookworm; urgency=high
+Checksums-Sha1:
+ 7c26f9b2c8b1678e70434f00c8d2ecf7e4158d54 7712 ros-teleop-tools-msgs_0.4.1-2023.01.20.16.42_amd64.buildinfo
+ 213f14bc7d648bdbe2ab323984b77bb4057c5c2f 23312 ros-teleop-tools-msgs_0.4.1-2023.01.20.16.42_amd64.deb
+Checksums-Sha256:
+ 26786e91e25980fe1911c601ca43e1519d2fb4e4377e2b141680a7be43e4989d 7712 ros-teleop-tools-msgs_0.4.1-2023.01.20.16.42_amd64.buildinfo
+ 5b188857eaf2961c31fa04013e7a8490084e9821d2938f65b83e86b2d7cd6d84 23312 ros-teleop-tools-msgs_0.4.1-2023.01.20.16.42_amd64.deb
+Files:
+ dbb3b367a04f77d797512317721187a3 7712 misc optional ros-teleop-tools-msgs_0.4.1-2023.01.20.16.42_amd64.buildinfo
+ 1ff9e1cc58a7174d44ce500c895c3467 23312 misc optional ros-teleop-tools-msgs_0.4.1-2023.01.20.16.42_amd64.deb

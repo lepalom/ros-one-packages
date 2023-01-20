@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 23 Dec 2022 00:00:00 -0000
+Source: ros-audio-capture
+Binary: ros-audio-capture ros-audio-capture-dbgsym
+Architecture: amd64
+Version: 0.3.16-2023.01.20.13.17
+Distribution: bookworm
+Urgency: high
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Changed-By: Austin Hendrix <namniart@gmail.com>
+Description:
+ ros-audio-capture - Transports audio from a source to a destination.
+Changes:
+ ros-audio-capture (0.3.16-2023.01.20.13.17) bookworm; urgency=high
+ .
+   * Merge pull request #204 <https://github.com/ros-drivers/audio_common/issues/204> from knorth55/audio-capture-stamped
+   * add todo comment
+   * publish audio stamped in audio_capture.cpp
+   * Merge pull request #216 <https://github.com/ros-drivers/audio_common/issues/216> from knorth55/launch-update
+   * update audio_capture launch
+   * Contributors: Shingo Kitagawa
+Checksums-Sha1:
+ ad982c1b958a8d0f3a9b3a49e92f72bc4b253e85 548564 ros-audio-capture-dbgsym_0.3.16-2023.01.20.13.17_amd64.deb
+ 3889d3db5d66d04c24f27aeb980c5aba933dbe00 12060 ros-audio-capture_0.3.16-2023.01.20.13.17_amd64.buildinfo
+ 8c30284f98fc18c7150e9ac76ffa52602a231af5 43668 ros-audio-capture_0.3.16-2023.01.20.13.17_amd64.deb
+Checksums-Sha256:
+ 43d07ba00f279d22ed62169551789c2d41456464c39a659573087704d45812c8 548564 ros-audio-capture-dbgsym_0.3.16-2023.01.20.13.17_amd64.deb
+ 314d3ad1911d51f70932522329d94ebbdf11feec73e7e44ecd3943856af46ab5 12060 ros-audio-capture_0.3.16-2023.01.20.13.17_amd64.buildinfo
+ 0edf0bcacb929b492275b0ab73857eff5f5a02066b1237a2be5e73cc420246d2 43668 ros-audio-capture_0.3.16-2023.01.20.13.17_amd64.deb
+Files:
+ abeac69dead65e690979f9a065fc9359 548564 debug optional ros-audio-capture-dbgsym_0.3.16-2023.01.20.13.17_amd64.deb
+ ec947f8109ecc5be37de335fd93c5440 12060 misc optional ros-audio-capture_0.3.16-2023.01.20.13.17_amd64.buildinfo
+ 86590de577c0c94484dd7b03874c6ff7 43668 misc optional ros-audio-capture_0.3.16-2023.01.20.13.17_amd64.deb

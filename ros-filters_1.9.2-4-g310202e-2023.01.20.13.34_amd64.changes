@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Mon, 09 May 2022 00:00:00 -0000
+Source: ros-filters
+Binary: ros-filters ros-filters-dbgsym
+Architecture: amd64
+Version: 1.9.2-4-g310202e-2023.01.20.13.34
+Distribution: bookworm
+Urgency: high
+Maintainer: Tully Foote <tfoote@willowgarage.com>
+Changed-By: Tully Foote <tfoote@willowgarage.com>
+Description:
+ ros-filters - This library provides a standardized interface for processing dat
+Changes:
+ ros-filters (1.9.2-4-g310202e-2023.01.20.13.34) bookworm; urgency=high
+ .
+   * Give access to FilterChain list of loaded filters
+   * Fix warnings and problem with illegal xml characters
+   * Contributors: Markus Vieth, Martin Pecka
+Checksums-Sha1:
+ 7fd58d409cae736a335be94d99362ad3529e29b7 1672972 ros-filters-dbgsym_1.9.2-4-g310202e-2023.01.20.13.34_amd64.deb
+ e5c5b584e3de72cb4830a3eb91b5b3291dd6772c 10610 ros-filters_1.9.2-4-g310202e-2023.01.20.13.34_amd64.buildinfo
+ 5b3d8fea4d835b0668d4f53c196d9f4ccbee8ff1 78304 ros-filters_1.9.2-4-g310202e-2023.01.20.13.34_amd64.deb
+Checksums-Sha256:
+ 40ad0af5ef3689ca7e88543ed9abab37d5cf0170f8be96779b1ac019133e5079 1672972 ros-filters-dbgsym_1.9.2-4-g310202e-2023.01.20.13.34_amd64.deb
+ dcfd8edcd984c93cd96994765817bcefc6f94167f64e217f37b671abf50eba2d 10610 ros-filters_1.9.2-4-g310202e-2023.01.20.13.34_amd64.buildinfo
+ 4374ef0a7c018716f047418b27cbe7331066441effcc14b2fc5a00412ad70201 78304 ros-filters_1.9.2-4-g310202e-2023.01.20.13.34_amd64.deb
+Files:
+ 5a7b1da477118f2dc85f4114fe597216 1672972 debug optional ros-filters-dbgsym_1.9.2-4-g310202e-2023.01.20.13.34_amd64.deb
+ 7c681630ee301d1b5205e33771ed3d6b 10610 misc optional ros-filters_1.9.2-4-g310202e-2023.01.20.13.34_amd64.buildinfo
+ 214e09b91efd2c4ebb5d8ceeb3bce443 78304 misc optional ros-filters_1.9.2-4-g310202e-2023.01.20.13.34_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Mon, 04 Oct 2021 00:00:00 -0000
+Source: ros-urdfdom-py
+Binary: ros-urdfdom-py
+Architecture: amd64
+Version: 0.4.6-2023.01.20.16.55
+Distribution: bookworm
+Urgency: high
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Changed-By: Chris Lalancette <clalancette@osrfoundation.org>
+Description:
+ ros-urdfdom-py - Python implementation of the URDF parser.
+Changes:
+ ros-urdfdom-py (0.4.6-2023.01.20.16.55) bookworm; urgency=high
+ .
+   * Support name attribute for collisions (#67 <https://github.com/ros/urdf_parser_py/issues/67>)
+   * Contributors: Nick Lamprianidis
+Checksums-Sha1:
+ 095664d5d7f4655338b3cb90b84245e226309a66 6709 ros-urdfdom-py_0.4.6-2023.01.20.16.55_amd64.buildinfo
+ 40effcf17a38d29d433663fc3f622597170c4609 34756 ros-urdfdom-py_0.4.6-2023.01.20.16.55_amd64.deb
+Checksums-Sha256:
+ 39c7e1064252a63e45e35a67df66305eaa48dd3e2dee3039084e2dbf2c0fabe5 6709 ros-urdfdom-py_0.4.6-2023.01.20.16.55_amd64.buildinfo
+ 8954ff7c1e871af32dfca5ad1af02f35e9d68e3abd78cdbad488cff9448480bd 34756 ros-urdfdom-py_0.4.6-2023.01.20.16.55_amd64.deb
+Files:
+ 318a2cbe5130327693d24297f893560e 6709 misc optional ros-urdfdom-py_0.4.6-2023.01.20.16.55_amd64.buildinfo
+ cd6d816d2e18212fda985f9c4c7c4820 34756 misc optional ros-urdfdom-py_0.4.6-2023.01.20.16.55_amd64.deb

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 10 Jan 2023 00:00:00 -0000
+Source: ros-voxel-grid
+Binary: ros-voxel-grid ros-voxel-grid-dbgsym
+Architecture: amd64
+Version: 1.17.3-2-g85e5f334-2023.01.20.16.59
+Distribution: bookworm
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-voxel-grid - voxel_grid provides an implementation of an efficient 3D voxel gr
+Changes:
+ ros-voxel-grid (1.17.3-2-g85e5f334-2023.01.20.16.59) bookworm; urgency=high
+Checksums-Sha1:
+ c201b4fb36a6284f076a01fc973d6ee92f4880bc 56316 ros-voxel-grid-dbgsym_1.17.3-2-g85e5f334-2023.01.20.16.59_amd64.deb
+ 4554147f952930b42618f328bcffb6203655b60a 9182 ros-voxel-grid_1.17.3-2-g85e5f334-2023.01.20.16.59_amd64.buildinfo
+ 9f691bde96256ee12c63d11d9a8b8f4ca4bb4420 16612 ros-voxel-grid_1.17.3-2-g85e5f334-2023.01.20.16.59_amd64.deb
+Checksums-Sha256:
+ 51f9b60919e31ebe53f6e6ff3ce9ff69a23b4f5859acc57f2c25f868eef83989 56316 ros-voxel-grid-dbgsym_1.17.3-2-g85e5f334-2023.01.20.16.59_amd64.deb
+ f9b680d6d3c1ee2c8281028c5e4bd649c981d7c485454f6b87aa813d32389cf4 9182 ros-voxel-grid_1.17.3-2-g85e5f334-2023.01.20.16.59_amd64.buildinfo
+ e130ea061c8b8d58b0ed0b05ab5906c34cf1c72ae09e581c8be82b2bf8f3e13f 16612 ros-voxel-grid_1.17.3-2-g85e5f334-2023.01.20.16.59_amd64.deb
+Files:
+ ecb2a749ae2edfa867f035c2d177852d 56316 debug optional ros-voxel-grid-dbgsym_1.17.3-2-g85e5f334-2023.01.20.16.59_amd64.deb
+ 0c4904bbadf1f99c72dec0124496de9a 9182 misc optional ros-voxel-grid_1.17.3-2-g85e5f334-2023.01.20.16.59_amd64.buildinfo
+ 49f6597ef5bc4f8958e82f3f8ab5b50d 16612 misc optional ros-voxel-grid_1.17.3-2-g85e5f334-2023.01.20.16.59_amd64.deb

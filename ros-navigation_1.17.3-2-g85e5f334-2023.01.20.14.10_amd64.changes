@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 10 Jan 2023 00:00:00 -0000
+Source: ros-navigation
+Binary: ros-navigation
+Architecture: amd64
+Version: 1.17.3-2-g85e5f334-2023.01.20.14.10
+Distribution: bookworm
+Urgency: high
+Maintainer: Michael Ferguson <mfergs7@gmail.com>
+Changed-By: Michael Ferguson <mfergs7@gmail.com>
+Description:
+ ros-navigation - A 2D navigation stack that takes in information from odometry, se
+Changes:
+ ros-navigation (1.17.3-2-g85e5f334-2023.01.20.14.10) bookworm; urgency=high
+Checksums-Sha1:
+ 686cee3953a44cf629e2a1b5a7c3470df1ff5175 6704 ros-navigation_1.17.3-2-g85e5f334-2023.01.20.14.10_amd64.buildinfo
+ 347bebbb9ae372d3125612ecadae331e5ab77b77 3028 ros-navigation_1.17.3-2-g85e5f334-2023.01.20.14.10_amd64.deb
+Checksums-Sha256:
+ ea5924954c32c6ff04a86c683e6a2385e83972108c19eab76d4f17ad34655b21 6704 ros-navigation_1.17.3-2-g85e5f334-2023.01.20.14.10_amd64.buildinfo
+ b080f4b37058c841cfc98df85e858e47949b3d82d876ece91964de50b957406c 3028 ros-navigation_1.17.3-2-g85e5f334-2023.01.20.14.10_amd64.deb
+Files:
+ 58a3e42719a10bdaff2f4e9c565a5ac8 6704 misc optional ros-navigation_1.17.3-2-g85e5f334-2023.01.20.14.10_amd64.buildinfo
+ 38c7f80c76ee026c8043eeded9ef9537 3028 misc optional ros-navigation_1.17.3-2-g85e5f334-2023.01.20.14.10_amd64.deb

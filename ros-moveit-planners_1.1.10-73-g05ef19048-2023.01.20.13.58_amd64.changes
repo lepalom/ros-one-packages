@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 21 Dec 2022 00:00:00 -0000
+Source: ros-moveit-planners
+Binary: ros-moveit-planners
+Architecture: amd64
+Version: 1.1.10-73-g05ef19048-2023.01.20.13.58
+Distribution: bookworm
+Urgency: high
+Maintainer: Dave Coleman <dave@picknik.ai>
+Changed-By: Dave Coleman <dave@picknik.ai>
+Description:
+ ros-moveit-planners - Metapacakge that installs all available planners for MoveIt
+Changes:
+ ros-moveit-planners (1.1.10-73-g05ef19048-2023.01.20.13.58) bookworm; urgency=high
+Checksums-Sha1:
+ ba3232bfc73ac3112cc87f6a0cd269ea98f2d709 6737 ros-moveit-planners_1.1.10-73-g05ef19048-2023.01.20.13.58_amd64.buildinfo
+ 6057385168f0e9790a7f4d93448b0f279ff3e22a 2656 ros-moveit-planners_1.1.10-73-g05ef19048-2023.01.20.13.58_amd64.deb
+Checksums-Sha256:
+ 53ac2398d9fad522d01eb666cfb891d280db3fc4318a419861cb97d16a70b6d2 6737 ros-moveit-planners_1.1.10-73-g05ef19048-2023.01.20.13.58_amd64.buildinfo
+ 38a3d5ebccc6a4d004890980cdacd5db1c9e4b5a7cfef8061d313f1ad86b384d 2656 ros-moveit-planners_1.1.10-73-g05ef19048-2023.01.20.13.58_amd64.deb
+Files:
+ 3df6a3eb0ca887671a3d7452997f1ad0 6737 misc optional ros-moveit-planners_1.1.10-73-g05ef19048-2023.01.20.13.58_amd64.buildinfo
+ 5afff7c8d00a6b1b8ef5d192d311c496 2656 misc optional ros-moveit-planners_1.1.10-73-g05ef19048-2023.01.20.13.58_amd64.deb

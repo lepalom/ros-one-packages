@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Tue, 10 Jan 2023 00:00:00 -0000
+Source: ros-move-slow-and-clear
+Binary: ros-move-slow-and-clear ros-move-slow-and-clear-dbgsym
+Architecture: amd64
+Version: 1.17.3-2-g85e5f334-2023.01.20.17.16
+Distribution: bookworm
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-move-slow-and-clear - move_slow_and_clear
+Changes:
+ ros-move-slow-and-clear (1.17.3-2-g85e5f334-2023.01.20.17.16) bookworm; urgency=high
+ .
+   * [ROS-O] various patches (#1225 <https://github.com/ros-planning/navigation/issues/1225>)
+     * do not specify obsolete c++11 standard
+     this breaks with current versions of log4cxx.
+     * update pluginlib include paths
+     the non-hpp headers have been deprecated since kinetic
+     * use lambdas in favor of boost::bind
+     Using boost's _1 as a global system is deprecated since C++11.
+     The ROS packages in Debian removed the implicit support for the global symbols,
+     so this code fails to compile there without the patch.
+   * Contributors: Michael Görner
+Checksums-Sha1:
+ 2d0d0f40b833985b499ce81b140a93c95eecf4dc 792552 ros-move-slow-and-clear-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.16_amd64.deb
+ 5a95b1a2f5f0103c7ddba27f3a1826272adb5e80 12874 ros-move-slow-and-clear_1.17.3-2-g85e5f334-2023.01.20.17.16_amd64.buildinfo
+ 5103776526529e226e313bbee2210feb4f9d823d 48012 ros-move-slow-and-clear_1.17.3-2-g85e5f334-2023.01.20.17.16_amd64.deb
+Checksums-Sha256:
+ ffaf2280f80d5825dcb918a69cd636e2e242260438abffd1b0be08389bbf5e48 792552 ros-move-slow-and-clear-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.16_amd64.deb
+ 27df07298b04262041b3977bbe774d54d2604866eb060ee49a5007679de4c0dc 12874 ros-move-slow-and-clear_1.17.3-2-g85e5f334-2023.01.20.17.16_amd64.buildinfo
+ e420b748594c6b4d5d41b0acae973ca13d569ed648f90dfee5e640e2b19b267d 48012 ros-move-slow-and-clear_1.17.3-2-g85e5f334-2023.01.20.17.16_amd64.deb
+Files:
+ 851c8d27b172fc566a8bfeff2454993d 792552 debug optional ros-move-slow-and-clear-dbgsym_1.17.3-2-g85e5f334-2023.01.20.17.16_amd64.deb
+ 4034d1e218da2647b5245692335c48f5 12874 misc optional ros-move-slow-and-clear_1.17.3-2-g85e5f334-2023.01.20.17.16_amd64.buildinfo
+ 668c64d5fac3928bdf1966802af4722f 48012 misc optional ros-move-slow-and-clear_1.17.3-2-g85e5f334-2023.01.20.17.16_amd64.deb

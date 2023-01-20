@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Sat, 08 May 2021 00:00:00 -0000
+Source: ros-pr2-calibration-controllers
+Binary: ros-pr2-calibration-controllers ros-pr2-calibration-controllers-dbgsym
+Architecture: amd64
+Version: 1.10.18-3-g8e8dfa0-2023.01.20.18.32
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-pr2-calibration-controllers - The pr2_calibration_controllers package contains the controllers
+Changes:
+ ros-pr2-calibration-controllers (1.10.18-3-g8e8dfa0-2023.01.20.18.32) bookworm; urgency=high
+Checksums-Sha1:
+ 7eb319a046458cf76548b2c686161e0aa959e63c 2984256 ros-pr2-calibration-controllers-dbgsym_1.10.18-3-g8e8dfa0-2023.01.20.18.32_amd64.deb
+ 928ca4b6719bdb5fcbddc55d6732785c27407bad 16887 ros-pr2-calibration-controllers_1.10.18-3-g8e8dfa0-2023.01.20.18.32_amd64.buildinfo
+ 24a437a6974e566f6060f1ae497d4efd4ee644fe 71512 ros-pr2-calibration-controllers_1.10.18-3-g8e8dfa0-2023.01.20.18.32_amd64.deb
+Checksums-Sha256:
+ d383fc55542d59ab95a723e20b77fcb34e54941d4857d0632fa1168f3e38ff17 2984256 ros-pr2-calibration-controllers-dbgsym_1.10.18-3-g8e8dfa0-2023.01.20.18.32_amd64.deb
+ 19c807812197adf769d8e70ef6f7d33b0475938637458197bef0a08d461cc2ca 16887 ros-pr2-calibration-controllers_1.10.18-3-g8e8dfa0-2023.01.20.18.32_amd64.buildinfo
+ 1c5729bf29bf61f3db807e486b3e6f5c7f8a61b024ebca59b1d2be80d619e518 71512 ros-pr2-calibration-controllers_1.10.18-3-g8e8dfa0-2023.01.20.18.32_amd64.deb
+Files:
+ bed72a65a91db6139af51eb2691048f8 2984256 debug optional ros-pr2-calibration-controllers-dbgsym_1.10.18-3-g8e8dfa0-2023.01.20.18.32_amd64.deb
+ d4c481f55171668d8e03a1601e1cd472 16887 misc optional ros-pr2-calibration-controllers_1.10.18-3-g8e8dfa0-2023.01.20.18.32_amd64.buildinfo
+ 5d754fc3c0ff0a5f1dc63640d16cd0c0 71512 misc optional ros-pr2-calibration-controllers_1.10.18-3-g8e8dfa0-2023.01.20.18.32_amd64.deb

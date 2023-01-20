@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 20 Apr 2022 00:00:00 -0000
+Source: ros-rqt-reconfigure
+Binary: ros-rqt-reconfigure
+Architecture: amd64
+Version: 0.5.5-2-g43a0961-2023.01.20.16.04
+Distribution: bookworm
+Urgency: high
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Changed-By: Dharini Dutia <dharini@openrobotics.org>
+Description:
+ ros-rqt-reconfigure - This rqt plugin succeeds former dynamic_reconfigure's GUI (reconf
+Changes:
+ ros-rqt-reconfigure (0.5.5-2-g43a0961-2023.01.20.16.04) bookworm; urgency=high
+ .
+   * Show enum item description as tooltip (#113 <https://github.com/ros-visualization/rqt_reconfigure/issues/113>)
+   * Contributors: Matthijs van der Burgh
+Checksums-Sha1:
+ 42300b704d4cacae5b856fa76e9c59f59a0a4f79 8575 ros-rqt-reconfigure_0.5.5-2-g43a0961-2023.01.20.16.04_amd64.buildinfo
+ 6d4675979cdb6cb56c8171b8c0fd3fe98f8e8ef3 55072 ros-rqt-reconfigure_0.5.5-2-g43a0961-2023.01.20.16.04_amd64.deb
+Checksums-Sha256:
+ b20af885cc4caec177c4f8b3e8ec93fd2e9220f7abaa3c0cccfa30a3cf597aaf 8575 ros-rqt-reconfigure_0.5.5-2-g43a0961-2023.01.20.16.04_amd64.buildinfo
+ b745d1db2f26295920b25ac7f347787a2b072db350d0aa4cad44d63e2667899f 55072 ros-rqt-reconfigure_0.5.5-2-g43a0961-2023.01.20.16.04_amd64.deb
+Files:
+ bcca07fe83da45b32b84e1a25e148559 8575 misc optional ros-rqt-reconfigure_0.5.5-2-g43a0961-2023.01.20.16.04_amd64.buildinfo
+ 5ae1a5274963050fa132749ed40e3a4e 55072 misc optional ros-rqt-reconfigure_0.5.5-2-g43a0961-2023.01.20.16.04_amd64.deb

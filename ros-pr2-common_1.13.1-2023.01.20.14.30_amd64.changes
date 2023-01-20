@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 07 Sep 2022 00:00:00 -0000
+Source: ros-pr2-common
+Binary: ros-pr2-common
+Architecture: amd64
+Version: 1.13.1-2023.01.20.14.30
+Distribution: bookworm
+Urgency: high
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Changed-By: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Description:
+ ros-pr2-common - URDF description of the robot kinematics and dynamics, 3D models
+Changes:
+ ros-pr2-common (1.13.1-2023.01.20.14.30) bookworm; urgency=high
+Checksums-Sha1:
+ ab53e86de8c219d26be64b9f79a477c3a9bd96d4 6656 ros-pr2-common_1.13.1-2023.01.20.14.30_amd64.buildinfo
+ 65f11fe63b9bf12062301f2067515a8ebde373de 2440 ros-pr2-common_1.13.1-2023.01.20.14.30_amd64.deb
+Checksums-Sha256:
+ 29d7cc0f48193f4eefa73bd68f1af8c37a7972e20e0abcd9c608a7c1f74ed820 6656 ros-pr2-common_1.13.1-2023.01.20.14.30_amd64.buildinfo
+ bd6c32e3e8cccbe60565636f81f8b879708623667d3a3c03c11f8ce068216c9a 2440 ros-pr2-common_1.13.1-2023.01.20.14.30_amd64.deb
+Files:
+ 57598526bd06f0bbdbb41f09a7bb0409 6656 misc optional ros-pr2-common_1.13.1-2023.01.20.14.30_amd64.buildinfo
+ fa87ec998501d3f6bc9031708109e652 2440 misc optional ros-pr2-common_1.13.1-2023.01.20.14.30_amd64.deb
