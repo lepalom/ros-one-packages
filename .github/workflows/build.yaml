@@ -15,6 +15,6 @@ jobs:
           ROSDEP_SOURCE: yaml file:///home/runner/work/ros-one-packages/ros-one-packages/rosdep.yaml debian
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
-          SBUILD_CONF: "$extra_repositories = [ 'deb [trusted=yes] http://debrob.upc.edu/debian-robotics bullseye-robotics main' ];"
+          SBUILD_CONF: "$extra_repositories = [ 'deb [trusted=yes] http://debrob.upc.edu/debian-robotics bullseye-robotics main' ];$build_source = 1;"
           
           
