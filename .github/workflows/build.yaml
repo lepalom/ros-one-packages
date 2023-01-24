@@ -8,10 +8,12 @@ jobs:
   build_testing:
     runs-on: ubuntu-22.04
     steps:
-      - uses: jspricke/ros-deb-builder-action@rosotest
+      - uses: lepalom/ros-deb-builder-action@main
         with:
           DEB_DISTRO: bullseye
           ROS_DISTRO: debian
           ROSDEP_SOURCE: yaml file:///home/runner/work/ros-one-packages/ros-one-packages/rosdep.yaml debian
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
+          SBUILD_CONF: $build_source = 1
+          
