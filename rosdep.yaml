@@ -9,9 +9,18 @@ libtool:
     - libtool-bin
 libogre-dev:
   debian:
-    - libogre-1.9-dev
+    bullseye:
+      - libogre-1.9-dev
+    bookworm:
+      - libogre-1.12-dev
 python3-catkin-pkg-modules:
   debian:
     - python3-catkin-pkg
 prbt_ikfast_manipulator_plugin:
   debian:
+xacro:
+  debian:
+    - python3-xacro
+filters:
+  debian:
+    - libros-filters-dev
