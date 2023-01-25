@@ -11,3 +11,7 @@ repositories:
     type: git
     url: https://github.com/AprilRobotics/apriltag_ros
     version: master
+  ethercat_grant:
+    type: git
+    url: https://github.com/shadow-robot/ethercat_grant.git
+    version: noetic-devel
