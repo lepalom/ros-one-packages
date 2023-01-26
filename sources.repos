@@ -35,7 +35,7 @@ repositories:
 #    type: git
 #    url: https://github.com/ros-o/ddynamic_reconfigure.git
 #    version: obese-devel
-   urdf_tutorial:
+  urdf_tutorial:
     type: git
     url: https://github.com/ros/urdf_tutorial.git
     version: master
