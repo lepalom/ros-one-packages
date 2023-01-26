@@ -21,7 +21,7 @@ repositories:
     version: obese-devel
   geometry_tutorials:
     type: git
-    url: geometry_tutorials
+    url: https://github.com/ros-o/geometry_tutorials.git
     version: obese-devel
   gl_dependency:
     type: git
@@ -29,7 +29,7 @@ repositories:
     version: kinetic-devel
   code_coverage:
     type: git
-    url: https://github.com/mikeferguson/code_coverage
+    url: https://github.com/mikeferguson/code_coverage.git
     version: master
   ddynamic_reconfigure:
     type: git
@@ -37,7 +37,7 @@ repositories:
     version: obese-devel
   interactive_markers:
     type: git
-    url: https://github.com/ros-o/interactive_markers
+    url: https://github.com/ros-o/interactive_markers.git
     version: obese-devel
   ros_tutorials:
     type: git
