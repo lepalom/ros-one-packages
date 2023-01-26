@@ -18,9 +18,14 @@ python3-catkin-pkg-modules:
     - python3-catkin-pkg
 prbt_ikfast_manipulator_plugin:
   debian:
+    - ros-prbt-ikfast-manipulator-plugin
 xacro:
   debian:
     - python3-xacro
 filters:
   debian:
     - libros-filters-dev
+roslint:
+  debian:
+    - python3-roslint
+    
