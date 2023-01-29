@@ -28,4 +28,34 @@ filters:
 roslint:
   debian:
     - python3-roslint
+actionlib_tutorials:
+  debian:
+    - ros-actionlib-tutorials
+nodelet_tutorial_math:
+  debian:
+    - ros-nodelet-tutorial-math
+pluginlib_tutorials:
+  debian:
+    - ros-pluginlib-tutorials
+turtle_actionlib:
+  debian:
+    - ros-turtle-actionlib
+control_msgs:
+  debian:
+    - libcontrol-msgs-dev
+    - python3-control-msgs
+    - ros-control-msgs
+realtime_tools:
+  debian:
+    - librealtime-tools-dev
+driver_common:
+  debian:
+    - ros-driver-common
+driver_base:
+  debian:
+    - ros-driver-base
+timestamp_tools:
+  debian:
+    - ros-timestamp-tools
+    
     
