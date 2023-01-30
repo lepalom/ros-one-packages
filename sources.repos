@@ -442,7 +442,7 @@ repositories:
     version: melodic-devel
   visualization_tutorials:
     type: git
-    url: https://github.com/ros-o/visualization_tutorials.git
+    url: https://github.com/lepalom/visualization_tutorials.git
     version: obese-devel
   warehouse_ros:
     type: git
