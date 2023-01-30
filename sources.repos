@@ -58,15 +58,7 @@ repositories:
     version: master
   common_tutorials:
     type: git
-    url: https://github.com/ros/common_tutorials.git
-    version: noetic-devel
-  control_msgs:
-    type: git
-    url: https://github.com/ros-controls/control_msgs.git
-    version: kinetic-devel
-  control_toolbox:
-    type: git
-    url: https://github.com/ros-o/control_toolbox
+    url: https://github.com/ros-o/common_tutorials.git
     version: obese-devel
   convex_decomposition:
     type: git
@@ -136,14 +128,14 @@ repositories:
     type: git
     url: https://github.com/ros-perception/laser_assembler.git
     version: noetic-devel
-#  laser_filters:
-#    type: git
-#    url: https://github.com/ros-perception/laser_filters.git
-#    version: noetic-devel
-#  laser_pipeline:
-#    type: git
-#    url: https://github.com/ros-perception/laser_pipeline.git
-#    version: noetic-devel
+  laser_filters:
+    type: git
+    url: https://github.com/ros-perception/laser_filters.git
+    version: noetic-devel
+  laser_pipeline:
+    type: git
+    url: https://github.com/ros-perception/laser_pipeline.git
+    version: noetic-devel
 #  libuvc_ros:
 #    type: git
 #    url: https://github.com/ros-drivers/libuvc_ros.git
