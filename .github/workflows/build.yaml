@@ -15,6 +15,6 @@ jobs:
           ROSDEP_SOURCE: yaml file:///home/runner/work/ros-one-packages/ros-one-packages/rosdep.yaml debian
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
-          SBUILD_CONF: "$extra_repositories = [ 'deb [trusted=yes] http://debrob.upc.edu/debian-robotics bullseye-robotics main', 'deb http://deb.debian.org/debian bullseye-backports main']; $manual_depends = ['cmake (>= 3.22.1-1)'];"
+          SBUILD_CONF: "$extra_repositories = [ 'deb [trusted=yes] http://debrob.upc.edu/debian-robotics bullseye-robotics main', 'deb http://deb.debian.org/debian bullseye-backports main']; $build_dep_resolver = 'aptitude';  $manual_depends = ['cmake (>= 3.22.1-1)'];"
           
           
