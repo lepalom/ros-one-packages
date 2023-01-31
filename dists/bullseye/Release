@@ -1,0 +1,41 @@
+Origin: Debian Robotics
+Label: Debian Robotics Ros4Debian
+Suite: bullseye-ros4debian
+Codename: bullseye
+Date: Tue, 31 Jan 2023 21:11:12 UTC
+Architectures: amd64
+Components: main
+Description: Unofficial Debian packages generated using github action based in bullseye-robotics.
+MD5Sum:
+ 67f53a5bdf89ed95378968bf53225237 224425 main/binary-amd64/Packages
+ ee1e10ad198cb09fc2d743f4ff3bf9be 58027 main/binary-amd64/Packages.gz
+ 13ab49913c889e2aa2f5d3545b21f43f 221 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 5cf21acb553ca7fcd663bc8829d5fce3 222 main/source/Release
+ 7ad3e9cfb35eefa252b773085e8cbc33 489370 main/Contents-amd64
+ 67ca78eda304342196501b3c8d9e65b3 44782 main/Contents-amd64.gz
+SHA1:
+ 6b6aefb019303cf1b15889d3029f23031ad1bbb8 224425 main/binary-amd64/Packages
+ b20c20979a3dd6b653f154779b0aad981d0b188d 58027 main/binary-amd64/Packages.gz
+ 52cc7027230cc3d965586af1707b70a06845fb00 221 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ c4ec83248ebf578cb162828d6e8f0a975909985d 222 main/source/Release
+ d04a74fbdec5c8c8f6232a6a5665b9dacbc58c3b 489370 main/Contents-amd64
+ b2c37579cf2a850db84669d7da4705a577035f1a 44782 main/Contents-amd64.gz
+SHA256:
+ 749f254b021bda8bae86f9defeaa7ca5df3e1dbcc1bae589077249464dba6993 224425 main/binary-amd64/Packages
+ 31065785dd32995e6f086039cfd9e94b746b7775ad6d43229c48db8a9c757a8d 58027 main/binary-amd64/Packages.gz
+ 96272d8f0b0f7e19fe7e39767929e200facd1db791928d4f831bf02380786fbb 221 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 4d54b54819445634caa93c4e856b0f885ef085e72349fe40f69227c0cfedb4f2 222 main/source/Release
+ 8a96034b56d4b1eb2225296b39588770b730188346619a6d79ecf26b9c17c9ce 489370 main/Contents-amd64
+ 1d53d6b3bc5822f520e05b42961dc0391923c87a7d5720b7adaf3936b6333700 44782 main/Contents-amd64.gz

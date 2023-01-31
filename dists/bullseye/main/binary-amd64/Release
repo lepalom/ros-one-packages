@@ -1,0 +1,6 @@
+Archive: bullseye-ros4debian
+Component: main
+Origin: Debian Robotics
+Label: Debian Robotics Ros4Debian
+Architecture: amd64
+Description: Unofficial Debian packages generated using github action based in bullseye-robotics.
